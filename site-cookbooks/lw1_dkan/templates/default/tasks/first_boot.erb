@@ -1,0 +1,136 @@
+def adjust_location
+  location = {}
+  case node.ec2.placement_availability_zone
+  when /^ap-northeast/
+    location[:lang] = "ja"
+    location[:zone] = "Asia/Tokyo"
+  else
+    location[:lang] = "en"
+    location[:zone] = "UTC"
+  end
+  location
+end
+
+dkan_location = adjust_location
+dkan_ver = "<%= node[:lw1_dkan][:install][:version] %>"
+
+%w[userdir.conf welcome.conf autoindex.conf].map do |conf|
+  file "/etc/httpd/conf.d/#{conf}" do
+    action :delete
+  end
+end
+
+service 'httpd' do
+  action [:enable, :start]
+end
+
+## Force create swapfile
+ruby_block "create swapfile" do
+  block do
+    unless ::File.exist?('/swapfile')
+      Chef::Log.info "Create Swapfile"
+      system('dd if=/dev/zero of=/swapfile bs=1024 count=2097152 && mkswap /swapfile')
+      system('swapon /swapfile')
+    end
+  end
+end
+
+mount 'swapfile1' do
+  action :enable
+  mount_point 'none'
+  pass 0
+  device '/swapfile'
+  fstype 'swap'
+  only_if { ::File.exists?('/swapfile') }
+end
+
+service 'mysqld' do
+  action [:enable, :start]
+end
+
+bash 'mysql_secure_install emulate' do
+  code <<-"EOH"
+    /usr/bin/mysqladmin drop test -f
+    /usr/bin/mysql -e "DELETE FROM user WHERE user = '';" -D mysql
+    /usr/bin/mysql -e "DELETE FROM mysql.user WHERE User='root' AND Host NOT IN ('localhost', '127.0.0.1', '::1');" -D mysql
+    /usr/bin/mysql -e "SET PASSWORD FOR 'root'@'::1' = PASSWORD('#{node.ec2.instance_id}');" -D mysql
+    /usr/bin/mysql -e "SET PASSWORD FOR 'root'@'127.0.0.1' = PASSWORD('#{node.ec2.instance_id}');" -D mysql
+    /usr/bin/mysql -e "SET PASSWORD FOR 'root'@'localhost' = PASSWORD('#{node.ec2.instance_id}');" -D mysql
+    /usr/bin/mysqladmin flush-privileges -pnewpassword -p#{node.ec2.instance_id}
+  EOH
+  action :run
+  only_if "/usr/bin/mysql -u root -e 'show databases;'"
+end
+
+package 'mod24_ssl'
+
+
+template "/etc/php.d/date.ini" do
+  local true
+  source "/opt/lw1/tasks/date.ini.erb"
+  variables dkan_location
+end
+
+
+bash 'install dkan by drush' do
+  environment "HOME" => "/tmp"
+  cwd "/var/www/html"
+  user "apache"
+  group "apache"
+  code <<-"EOH"
+    /usr/local/bin/drush site-install dkan --db-url="mysql://root:#{node.ec2.instance_id}@localhost/dkan" -y -v --account-pass="#{node.ec2.instance_id}" --site-name="DKAN Powerd by amiage"
+    touch /var/www/html/.ht_dkan_installed
+  EOH
+  action :run
+  creates "/var/www/html/.ht_dkan_installed"
+end
+
+file "/var/www/html/install_amiage.php" do
+  owner "apache"
+  group "apache"
+  content "Applying security updates to the dkan... It takes about 5-15 minutes. Please Wait."
+end
+
+bash 'update dkan by drush' do
+  environment "HOME" => "/tmp"
+  cwd "/var/www/html"
+  user "apache"
+  group "apache"
+  code <<-"EOH"
+    /usr/local/bin/drush pm-update -vy --security-only
+    touch /var/www/html/.ht_dkan_updated
+  EOH
+  action :run
+  creates "/var/www/html/.ht_dkan_updated"
+  returns [0,1]
+end
+
+template "/var/www/html/install_amiage.php" do
+  local true
+  mode  '0644'
+  owner "apache"
+  group "apache"
+  source "/opt/lw1/tasks/install_amiage.php.erb"
+  variables ({
+    :instance_id => node[:ec2][:instance_id]
+  })
+end
+
+service 'postfix' do
+  action [:start, :enable]
+end
+
+service 'httpd' do
+  action [:enable, :start]
+end
+
+cron "setup_dkan_on_init" do
+  action :delete
+end
+
+%w{/var/chef/cache /var/chef/backup}.map do |dir|
+  directory dir do
+    action :delete
+    recursive true
+  end
+end
