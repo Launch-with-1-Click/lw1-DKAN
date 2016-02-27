@@ -14,7 +14,7 @@ end
 file "/var/www/html/install_amiage.php" do
   owner "apache"
   group "apache"
-  content "Initializing the dkan... It takes about 5-10 minutes."
+  content "Step 1/2: Initializing the dcan... It takes about 5-10 minutes."
 end
 
 cookbook_file "/opt/lw1/tasks/install_amiage.php.erb" do

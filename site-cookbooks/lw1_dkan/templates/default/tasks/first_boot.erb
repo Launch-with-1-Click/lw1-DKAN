@@ -20,6 +20,7 @@ dkan_ver = "<%= node[:lw1_dkan][:install][:version] %>"
   end
 end
 
+package 'mod24_ssl'
 service 'httpd' do
   action [:enable, :start]
 end
@@ -62,7 +63,6 @@ bash 'mysql_secure_install emulate' do
   only_if "/usr/bin/mysql -u root -e 'show databases;'"
 end
 
-package 'mod24_ssl'
 
 
 template "/etc/php.d/date.ini" do
@@ -88,7 +88,7 @@ end
 file "/var/www/html/install_amiage.php" do
   owner "apache"
   group "apache"
-  content "Applying security updates to the dkan... It takes about 5-15 minutes. Please Wait."
+  content "Step 2/2: Applying security updates to the dkan... It takes about 5-15 minutes. Please Wait."
 end
 
 bash 'update dkan by drush' do
