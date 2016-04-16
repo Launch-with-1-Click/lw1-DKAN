@@ -10,4 +10,5 @@ default[:lw1_dkan][:install][:download_url] = [
   "#{node[:lw1_dkan][:install][:version]}.tar.gz"
 ].join("/")
 
-
+default[:lw1_dkan][:profile] = 'dkan'
+default[:lw1_dkan][:makefile] = 'build-dkan.make'

@@ -78,7 +78,7 @@ bash 'install dkan by drush' do
   user "apache"
   group "apache"
   code <<-"EOH"
-    /usr/local/bin/drush site-install dkan --db-url="mysql://root:#{node.ec2.instance_id}@localhost/dkan" -y -v --account-pass="#{node.ec2.instance_id}" --site-name="DKAN Powerd by amiage"
+    /usr/local/bin/drush site-install <%= node[:lw1_dkan][:profile]  %> --db-url="mysql://root:#{node.ec2.instance_id}@localhost/dkan" -y -v --account-pass="#{node.ec2.instance_id}" --site-name="DKAN Powerd by amiage"
     touch /var/www/html/.ht_dkan_installed
   EOH
   action :run
