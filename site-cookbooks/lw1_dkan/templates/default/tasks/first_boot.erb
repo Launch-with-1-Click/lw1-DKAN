@@ -72,6 +72,7 @@ template "/etc/php.d/date.ini" do
 end
 
 
+<% if node[:lw1_dkan][:profile] == 'dkan' %>
 bash 'install dkan by drush' do
   environment "HOME" => "/tmp"
   cwd "/var/www/html"
@@ -84,6 +85,7 @@ bash 'install dkan by drush' do
   action :run
   creates "/var/www/html/.ht_dkan_installed"
 end
+<% end %>
 
 file "/var/www/html/install_amiage.php" do
   owner "apache"
@@ -91,6 +93,7 @@ file "/var/www/html/install_amiage.php" do
   content "Step 2/2: Applying security updates to the dkan... It takes about 5-15 minutes. Please Wait."
 end
 
+<% if node[:lw1_dkan][:profile] == 'dkan' %>
 bash 'update dkan by drush' do
   environment "HOME" => "/tmp"
   cwd "/var/www/html"
@@ -104,6 +107,7 @@ bash 'update dkan by drush' do
   creates "/var/www/html/.ht_dkan_updated"
   returns [0,1]
 end
+<% end %>
 
 template "/var/www/html/install_amiage.php" do
   local true

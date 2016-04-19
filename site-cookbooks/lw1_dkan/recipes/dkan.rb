@@ -34,6 +34,17 @@ bash "build_dkan" do
   notifies :run, 'bash[chown_dkan_wwwroot]'
 end
 
+unless node[:lw1_dkan][:profile] == 'dkan'
+  bash "copy custom profile" do
+    cwd "/usr/local/src/dkan"
+    code <<-EOL
+      mkdir -p /var/www/html/profile/#{node[:lw1_dkan][:profile]}
+      tar xvzf /tmp/profile.tgz --strip=1 -C /var/www/html/profile/#{node[:lw1_dkan][:profile]}
+    EOL
+    notifies :run, 'bash[chown_dkan_wwwroot]'
+  end
+end
+
 cookbook_file "/etc/httpd/conf.d/dkan.conf" do
   source "httpd/dkan.conf"
 end
