@@ -11,4 +11,4 @@ default[:lw1_dkan][:install][:download_url] = [
 ].join("/")
 
 default[:lw1_dkan][:profile] = 'dkan'
-default[:lw1_dkan][:makefile] = 'build-dkan.make'
+default[:lw1_dkan][:custom_makefile] = 'build-dkan.make'

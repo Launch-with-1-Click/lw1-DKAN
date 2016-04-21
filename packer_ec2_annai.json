@@ -35,8 +35,8 @@
       ],
       "json" : {
         "lw1_dkan" : {
-          "profile" : "annai_dkan",
-          "makefile" : "annai_dkan.make"
+          "profile" : "dkan_japanese",
+          "custom_makefile" : "dkan_japanese.make"
         }
       },
       "run_list" : [

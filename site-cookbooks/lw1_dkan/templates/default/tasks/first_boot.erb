@@ -54,9 +54,11 @@ bash 'mysql_secure_install emulate' do
     /usr/bin/mysqladmin drop test -f
     /usr/bin/mysql -e "DELETE FROM user WHERE user = '';" -D mysql
     /usr/bin/mysql -e "DELETE FROM mysql.user WHERE User='root' AND Host NOT IN ('localhost', '127.0.0.1', '::1');" -D mysql
+<% unless node[:lw1_dkan][:profile] == 'dkan' %>
+    /usr/bin/mysql -e "CREATE DATABASE dkan DEFAULT CHARACTER SET utf8;" -D mysql
+<% end %>
     /usr/bin/mysql -e "SET PASSWORD FOR 'root'@'::1' = PASSWORD('#{node.ec2.instance_id}');" -D mysql
     /usr/bin/mysql -e "SET PASSWORD FOR 'root'@'127.0.0.1' = PASSWORD('#{node.ec2.instance_id}');" -D mysql
-    /usr/bin/mysql -e "SET PASSWORD FOR 'root'@'localhost' = PASSWORD('#{node.ec2.instance_id}');" -D mysql
     /usr/bin/mysqladmin flush-privileges -pnewpassword -p#{node.ec2.instance_id}
   EOH
   action :run
@@ -108,6 +110,9 @@ bash 'update dkan by drush' do
   returns [0,1]
 end
 <% end %>
+
+## else ?
+# CREATE DATABASE dkan DEFAULT CHARACTER SET utf8;
 
 template "/var/www/html/install_amiage.php" do
   local true

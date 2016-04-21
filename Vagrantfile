@@ -67,8 +67,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
       common_provisioning_chef(chef) do
         chef.json = {
           "lw1_dkan" => {
-            "profile" => 'annai_dkan',
-            "makefile" => 'annai_dkan.make'
+            "profile" => 'dkan_japanese',
+            "custom_makefile" => 'dkan_japanese.make'
           }
         }
       end

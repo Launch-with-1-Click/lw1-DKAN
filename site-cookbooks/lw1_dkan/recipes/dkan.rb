@@ -9,39 +9,50 @@ ark "dkan" do
 end
 
 unless node[:lw1_dkan][:profile] == 'dkan'
-  cookbook_file "/tmp/profile.tgz" do
-    source File.join(node[:lw1_dkan][:profile], node[:lw1_dkan][:install][:version], 'profile.tgz' )
+  cookbook_file "/tmp/#{node[:lw1_dkan][:profile]}.tar.gz" do
+    source File.join('profiles', node[:lw1_dkan][:install][:version], "#{node[:lw1_dkan][:profile]}.tar.gz" )
   end
 
   bash "extract_custom_profile" do
     code <<-EOL
-      tar xvzf /tmp/profile.tgz --strip=1 -C /usr/local/src/dkan
-      chown apache.apache -R  /usr/local/src/dkan
+      mkdir -p /usr/local/src/#{node[:lw1_dkan][:profile]}
+      tar xvzf /tmp/#{node[:lw1_dkan][:profile]}.tar.gz --strip=1 -C /usr/local/src/#{node[:lw1_dkan][:profile]}
+      chown apache.apache -R  /usr/local/src/#{node[:lw1_dkan][:profile]}
     EOL
   end
 end
 
 
-bash "build_dkan" do
-  cwd "/usr/local/src/dkan"
-  code <<-EOL
-    rm -rf /var/www/html
-    /usr/local/bin/drush make -v --prepare-install #{node[:lw1_dkan][:makefile]} /var/www/html
-  EOL
-  returns [0]
-  retries 2
-  timeout 7200
-  notifies :run, 'bash[chown_dkan_wwwroot]'
-end
-
-unless node[:lw1_dkan][:profile] == 'dkan'
-  bash "copy custom profile" do
+if node[:lw1_dkan][:profile] == 'dkan'
+  bash "build_dkan" do
     cwd "/usr/local/src/dkan"
     code <<-EOL
-      mkdir -p /var/www/html/profile/#{node[:lw1_dkan][:profile]}
-      tar xvzf /tmp/profile.tgz --strip=1 -C /var/www/html/profile/#{node[:lw1_dkan][:profile]}
+      rm -rf /var/www/html
+      /usr/local/bin/drush make -v --prepare-install build-dkan.make /var/www/html
     EOL
+    returns [0]
+    retries 2
+    timeout 7200
     notifies :run, 'bash[chown_dkan_wwwroot]'
+  end
+else
+  bash "build_dkan_with_custom_profile" do
+    cwd "/usr/local/src/#{node[:lw1_dkan][:profile]}"
+    code <<-EOL
+      rm -rf /var/www/html
+      /usr/local/bin/drush make -v --prepare-install #{node[:lw1_dkan][:custom_makefile]} /var/www/html
+    EOL
+    returns [0]
+    retries 2
+    timeout 7200
+    notifies :run, 'bash[chown_dkan_wwwroot]'
+  end
+
+  %w[standard minimal].map do |dir|
+    directory File.join('/var/www/html/profiles', dir) do
+      action :delete
+      recursive true
+    end
   end
 end
 
