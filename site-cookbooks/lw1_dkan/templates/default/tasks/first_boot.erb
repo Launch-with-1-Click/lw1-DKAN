@@ -54,6 +54,9 @@ bash 'mysql_secure_install emulate' do
     if /usr/bin/mysql -u root -e 'use test;' ; then
       /usr/bin/mysqladmin drop test -f
     fi
+<% unless node[:lw1_dkan][:profile] == 'dkan' %>
+    /usr/bin/mysql -e "CREATE DATABASE dkan DEFAULT CHARACTER SET utf8;" -D mysql
+<% end %>
     /usr/bin/mysql -e "DELETE FROM user WHERE user = '';" -D mysql
     /usr/bin/mysql -e "DELETE FROM mysql.user WHERE User='root' AND Host NOT IN ('localhost', '127.0.0.1', '::1');" -D mysql
     /usr/bin/mysql -e "SET PASSWORD FOR 'root'@'::1' = PASSWORD('#{node.ec2.instance_id}');" -D mysql
