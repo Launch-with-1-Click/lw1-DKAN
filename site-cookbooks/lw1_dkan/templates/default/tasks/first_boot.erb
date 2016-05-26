@@ -91,8 +91,8 @@ end
 %w[configure dbparams].each do |conf|
     template "/var/www/html/profiles/<%= node[:lw1_dkan][:profile] %>/#{conf}.json" do
     local true
-    group apache
-    owner apache
+    group 'apache'
+    owner 'apache'
     source "/usr/local/src/<%= node[:lw1_dkan][:profile] %>/#{conf}.json.erb"
     variables({
       instance_id: node[:ec2][:instance_id]
