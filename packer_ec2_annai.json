@@ -16,7 +16,7 @@
       "ssh_username": "ec2-user",
       "ssh_timeout": "10m",
       "ssh_pty" : true,
-      "ami_name": "DKAN {{user `product_version`}} {{timestamp}}"
+      "ami_name": "Japanese DKAN {{user `product_version`}} {{timestamp}}"
     }
   ],
 
