@@ -46,7 +46,7 @@ function japanese_dkan_feature_enable() {
   foreach($menu_links as $link_menu) {
     if($link_menu['language'] == 'und'){
       $mod_link = $link_menu;
-      $mod_link['language'] = 'en';
+      $mod_link['language'] = 'ja';
       $mod_link['customized'] = 1;
       //to avoid Warning
       $link_menu['options'] = serialize($link_menu['options']);
