@@ -34,7 +34,7 @@ else
       /usr/local/bin/drush make -v --prepare-install #{node[:lw1_dkan][:custom_makefile]} /var/www/html
     EOL
     returns [0]
-    retries 2
+    retries 5
     timeout 7200
     notifies :run, 'bash[chown_dkan_wwwroot]'
     creates "/var/www/html/profiles/#{node[:lw1_dkan][:profile]}"
