@@ -1,0 +1,1636 @@
+# $Id$
+#
+# Japanese translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  dkan_data_dashboard/dkan_data_dashboard.features.inc: n/a
+#  dkan_data_story/dkan_data_story.features.inc: n/a
+#  dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.inc: n/a
+#  dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.features.inc: n/a
+#  dkan_dataset_backup/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.inc: n/a
+#  dkan_dataset_backup/modules/dkan_dataset_groups/dkan_dataset_groups.features.inc: n/a
+#  dkan_sitewide/dkan_sitewide.features.inc: n/a
+#  dkan_data_dashboard/dkan_data_dashboard.info: n/a
+#  dkan_data_story/dkan_data_story.info: n/a
+#  dkan_dataset/dkan_dataset.module: n/a
+#  dkan_dataset/dkan_dataset.info: n/a
+#  dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.info: n/a
+#  dkan_dataset_backup/dkan_dataset.module: n/a
+#  dkan_dataset_backup/dkan_dataset.info: n/a
+#  dkan_dataset_backup/modules/dkan_dataset_content_types/dkan_dataset_content_types.info: n/a
+#  dkan_datastore/dkan_datastore.info: n/a
+#  dkan_permissions/dkan_permissions.info: n/a
+#  dkan_sitewide/dkan_sitewide.blocks.inc: n/a
+#  dkan_sitewide/dkan_sitewide.info: n/a
+#  dkan_sitewide/modules/dkan_sitewide_context/dkan_sitewide_context.info: n/a
+#  dkan_sitewide/modules/dkan_sitewide_demo_front/dkan_sitewide_demo_front.info: n/a
+#  dkan_sitewide/modules/dkan_sitewide_menu/dkan_sitewide_menu.info: n/a
+#  dkan_sitewide/modules/dkan_sitewide_panelizer/dkan_sitewide_panelizer.info: n/a
+#  dkan_sitewide/modules/dkan_sitewide_panels/dkan_sitewide_panels.info: n/a
+#  dkan_sitewide/modules/dkan_sitewide_profile_page/dkan_sitewide_profile_page.info: n/a
+#  dkan_sitewide/modules/dkan_sitewide_search_db/dkan_sitewide_search_db.info: n/a
+#  dkan_sitewide/modules/dkan_sitewide_user/dkan_sitewide_user.info: n/a
+#  dkan_data_story/dkan_data_story.features.field_instance.inc: n/a
+#  dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.features.field_instance.inc: n/a
+#  dkan_dataset_backup/modules/dkan_dataset_groups/dkan_dataset_groups.features.field_instance.inc: n/a
+#  dkan_sitewide/dkan_sitewide.features.field.inc: n/a
+#  dkan_sitewide/dkan_sitewide.features.field_instance.inc: n/a
+#  dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc: n/a
+#  dkan_dataset_backup/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc: n/a
+#  dkan_sitewide/modules/dkan_sitewide_panels/dkan_sitewide_panels.pages_default.inc: n/a
+#  dkan_dataset/dkan_dataset.admin.inc: n/a
+#  dkan_dataset_backup/dkan_dataset.admin.inc: n/a
+#  dkan_dataset/dkan_dataset.forms.inc: n/a
+#  dkan_dataset_backup/dkan_dataset.forms.inc: n/a
+#  dkan_sitewide/modules/dkan_sitewide_profile_page/dkan_sitewide_profile_page.features.menu_links.inc: n/a
+#  dkan_dataset/dkan_dataset.theme.inc: n/a
+#  dkan_dataset_backup/dkan_dataset.theme.inc: n/a
+#  dkan_dataset/dkan_dataset.pages.inc: n/a
+#  dkan_dataset_backup/dkan_dataset.pages.inc: n/a
+#  dkan_datastore/dkan_datastore.module: n/a
+#  dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.field_group.inc: n/a
+#  dkan_dataset_backup/modules/dkan_dataset_groups/dkan_dataset_groups.field_group.inc: n/a
+#  dkan_sitewide/modules/dkan_sitewide_menu/dkan_sitewide_menu.features.menu_links.inc: n/a
+#  dkan_sitewide/dkan_sitewide.module: n/a
+#  dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module: n/a
+#  dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.info: n/a
+#  dkan_dataset_backup/modules/dkan_dataset_api/dkan_dataset_api.module: n/a
+#  dkan_dataset_backup/modules/dkan_dataset_api/dkan_dataset_api.info: n/a
+#  dkan_dataset/js/dataset.js: n/a
+#  dkan_dataset_backup/js/dataset.js: n/a
+#  dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.inc: n/a
+#  dkan_dataset_backup/modules/dkan_dataset_api/dkan_dataset_api.inc: n/a
+#  dkan_datastore/modules/dkan_datastore_api/dkan_datastore_api.info: n/a
+#  dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.field_group.inc: n/a
+#  dkan_sitewide/modules/dkan_sitewide_demo_front/dkan_sitewide_demo_front.module: n/a
+#  dkan_dataset_backup/modules/dkan_dataset_content_types/dkan_dataset_content_types.field_group.inc: n/a
+#  dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.module: n/a
+#  dkan_dataset_backup/modules/dkan_dataset_content_types/dkan_dataset_content_types.module: n/a
+#  dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.context.inc: n/a
+#  dkan_dataset_backup/modules/dkan_dataset_groups/dkan_dataset_groups.context.inc: n/a
+#  dkan_sitewide/modules/dkan_sitewide_menu/dkan_sitewide_menu.features.content_menu_links.inc: n/a
+#  dkan_sitewide/modules/dkan_sitewide_user/dkan_sitewide_user.features.field_instance.inc: n/a
+#  dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.module: n/a
+#  dkan_dataset_backup/modules/dkan_dataset_groups/dkan_dataset_groups.module: n/a
+#  dkan_sitewide/modules/dkan_sitewide_search_db/dkan_sitewide_search_db.module: n/a
+#  dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.info: n/a
+#  dkan_dataset_backup/modules/dkan_dataset_groups/dkan_dataset_groups.info: n/a
+#  dkan_dataset/modules/dkan_dataset_voting/dkan_dataset_voting.info: n/a
+#  dkan_dataset_backup/modules/dkan_dataset_voting/dkan_dataset_voting.info: n/a
+#  dkan_sitewide/modules/dkan_default_content/dkan_default_content.info: n/a
+#  dkan_dataset/modules/dkan_dataset_groups/modules/dkan_dataset_groups_perms/dkan_dataset_groups_perms.info: n/a
+#  dkan_dataset_backup/modules/dkan_dataset_groups/modules/dkan_dataset_groups_perms/dkan_dataset_groups_perms.info: n/a
+#  dkan_sitewide/modules/dkan_sitewide_roles_perms/dkan_sitewide_roles_perms.info: n/a
+#  dkan_dataset/modules/dkan_dataset_voting/dkan_dataset_voting.features.field_instance.inc: n/a
+#  dkan_dataset_backup/modules/dkan_dataset_voting/dkan_dataset_voting.features.field_instance.inc: n/a
+#  dkan_datastore/dkan_datastore.pages.inc: n/a
+#  dkan_datastore/includes/DkanDatastore.inc: n/a
+#  dkan_datastore/includes/Datastore.inc: n/a
+#  dkan_datastore/modules/dkan_datastore_api/dkan_datastore_api.module: n/a
+#  dkan_sitewide/modules/dkan_sitewide_demo_front/dkan_sitewide_demo_front.context.inc: n/a
+#  dkan_sitewide/modules/dkan_sitewide_search_db/dkan_sitewide_search_db.context.inc: n/a
+#  dkan_sitewide/modules/dkan_sitewide_context/dkan_sitewide_context.context.inc: n/a
+#  dkan_sitewide/modules/dkan_sitewide_menu/dkan_sitewide_menu.features.menu_custom.inc: n/a
+#  dkan_sitewide/modules/dkan_sitewide_panelizer/dkan_sitewide_panelizer.admin.inc: n/a
+#  dkan_sitewide/modules/dkan_sitewide_panelizer/dkan_sitewide_panelizer.module: n/a
+#  dkan_sitewide/modules/dkan_sitewide_profile_page/dkan_sitewide_profile_page.features.menu_custom.inc: n/a
+#  dkan_sitewide/modules/dkan_sitewide_profile_page/dkan_sitewide_profile_page.module: n/a
+#  dkan_sitewide/modules/dkan_sitewide_roles_perms/dkan_sitewide_roles_perms.module: n/a
+#  dkan_sitewide/modules/facet_icons/facet_icons.module: n/a
+#  dkan_sitewide/modules/facet_icons/facet_icons.info: n/a
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2016-03-29 18:41+0900\n"
+"PO-Revision-Date: 2016-03-29 18:41+0900\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Japanese <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: dkan_data_dashboard/dkan_data_dashboard.features.inc:32
+msgid "Data Dashboard"
+msgstr ""
+
+#: dkan_data_dashboard/dkan_data_dashboard.features.inc:34
+msgid "Content type for creation of Data Dashboards."
+msgstr ""
+
+#: dkan_data_dashboard/dkan_data_dashboard.features.inc:36 dkan_data_story/dkan_data_story.features.inc:78 dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.inc:74;82 dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.features.inc:144 dkan_dataset_backup/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.inc:74;82 dkan_dataset_backup/modules/dkan_dataset_groups/dkan_dataset_groups.features.inc:144 dkan_sitewide/dkan_sitewide.features.inc:26
+msgid "Title"
+msgstr "タイトル"
+
+#: dkan_data_dashboard/dkan_data_dashboard.info:0
+msgid "DKAN Sitewide Data Dashboard"
+msgstr ""
+
+#: dkan_data_dashboard/dkan_data_dashboard.info:0
+msgid "DKAN module for Data Dashboard content type"
+msgstr ""
+
+#: dkan_data_dashboard/dkan_data_dashboard.info:0 dkan_data_story/dkan_data_story.info:0 dkan_dataset/dkan_dataset.module:64 dkan_dataset/dkan_dataset.info:0 dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.info:0 dkan_dataset_backup/dkan_dataset.module:64 dkan_dataset_backup/dkan_dataset.info:0 dkan_dataset_backup/modules/dkan_dataset_content_types/dkan_dataset_content_types.info:0 dkan_datastore/dkan_datastore.info:0 dkan_permissions/dkan_permissions.info:0 dkan_sitewide/dkan_sitewide.blocks.inc:198 dkan_sitewide/dkan_sitewide.info:0 dkan_sitewide/modules/dkan_sitewide_context/dkan_sitewide_context.info:0 dkan_sitewide/modules/dkan_sitewide_demo_front/dkan_sitewide_demo_front.info:0 dkan_sitewide/modules/dkan_sitewide_menu/dkan_sitewide_menu.info:0 dkan_sitewide/modules/dkan_sitewide_panelizer/dkan_sitewide_panelizer.info:0 dkan_sitewide/modules/dkan_sitewide_panels/dkan_sitewide_panels.info:0 dkan_sitewide/modules/dkan_sitewide_profile_page/dkan_sitewide_profile_page.info:0 dkan_sitewide/modules/dkan_sitewide_search_db/dkan_sitewide_search_db.info:0 dkan_sitewide/modules/dkan_sitewide_user/dkan_sitewide_user.info:0
+msgid "DKAN"
+msgstr ""
+
+#: dkan_data_story/dkan_data_story.features.field_instance.inc:189 dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.features.field_instance.inc:257 dkan_dataset_backup/modules/dkan_dataset_groups/dkan_dataset_groups.features.field_instance.inc:257 dkan_sitewide/dkan_sitewide.features.field.inc:88 dkan_sitewide/dkan_sitewide.features.field_instance.inc:59
+msgid "Body"
+msgstr "本文"
+
+#: dkan_data_story/dkan_data_story.features.field_instance.inc:190 dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.features.field_instance.inc:260 dkan_dataset_backup/modules/dkan_dataset_groups/dkan_dataset_groups.features.field_instance.inc:260
+msgid "Image"
+msgstr "画像"
+
+#: dkan_data_story/dkan_data_story.features.field_instance.inc:191 dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1160 dkan_dataset_backup/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1154 dkan_sitewide/modules/dkan_sitewide_panels/dkan_sitewide_panels.pages_default.inc:1209
+msgid "Tags"
+msgstr "タグ"
+
+#: dkan_data_story/dkan_data_story.features.inc:74 dkan_data_story/dkan_data_story.info:0
+msgid "DKAN Data Story"
+msgstr ""
+
+#: dkan_data_story/dkan_data_story.features.inc:76
+msgid "Create compelling stories using data to illustrate key points."
+msgstr ""
+
+#: dkan_data_story/dkan_data_story.info:0
+msgid "Story building features for NuCivic Data."
+msgstr ""
+
+#: dkan_dataset/dkan_dataset.admin.inc:16 dkan_dataset_backup/dkan_dataset.admin.inc:16
+msgid "Available preview descriptions"
+msgstr ""
+
+#: dkan_dataset/dkan_dataset.admin.inc:29 dkan_dataset_backup/dkan_dataset.admin.inc:29
+msgid "External Preview Settings"
+msgstr ""
+
+#: dkan_dataset/dkan_dataset.admin.inc:30 dkan_dataset_backup/dkan_dataset.admin.inc:30
+msgid "Enable or disable external preview links for all resource formats. Modify the list of available resource formats !here."
+msgstr ""
+
+#: dkan_dataset/dkan_dataset.admin.inc:31 dkan_dataset_backup/dkan_dataset.admin.inc:31
+msgid "here"
+msgstr ""
+
+#: dkan_dataset/dkan_dataset.admin.inc:39 dkan_dataset_backup/dkan_dataset.admin.inc:39
+msgid "Enabled Preview Providers"
+msgstr ""
+
+#: dkan_dataset/dkan_dataset.admin.inc:40 dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1144 dkan_dataset_backup/dkan_dataset.admin.inc:40 dkan_dataset_backup/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1138 dkan_sitewide/modules/dkan_sitewide_panels/dkan_sitewide_panels.pages_default.inc:1240
+msgid "Format"
+msgstr "フォーマット"
+
+#: dkan_dataset/dkan_dataset.admin.inc:40 dkan_dataset_backup/dkan_dataset.admin.inc:40
+msgid "Enabled Previews"
+msgstr ""
+
+#: dkan_dataset/dkan_dataset.admin.inc:85 dkan_dataset_backup/dkan_dataset.admin.inc:85
+msgid "Label for local data preview"
+msgstr ""
+
+#: dkan_dataset/dkan_dataset.admin.inc:86 dkan_dataset_backup/dkan_dataset.admin.inc:86
+msgid "Any compatible format (like CSV) can be displayed in\n      the local DKAN data preview. If you enter, for instance, \"Data.gov\" in\n      this field, the link to the preview will read \"Data.gov Preview.\" Leave\n      blank to simply display the word \"Preview\"."
+msgstr ""
+
+#: dkan_dataset/dkan_dataset.admin.inc:109 dkan_dataset_backup/dkan_dataset.admin.inc:109
+msgid "Use Ajax on dataset node."
+msgstr ""
+
+#: dkan_dataset/dkan_dataset.admin.inc:114 dkan_dataset_backup/dkan_dataset.admin.inc:114
+msgid "Use Ajax on resource node."
+msgstr ""
+
+#: dkan_dataset/dkan_dataset.admin.inc:119 dkan_dataset_backup/dkan_dataset.admin.inc:119
+msgid "Divide Dataset form into main form and \"Additional Data\" (CKAN style)."
+msgstr ""
+
+#: dkan_dataset/dkan_dataset.admin.inc:132 dkan_dataset_backup/dkan_dataset.admin.inc:132
+msgid "Preview Type"
+msgstr ""
+
+#: dkan_dataset/dkan_dataset.admin.inc:132 dkan_dataset_backup/dkan_dataset.admin.inc:132
+msgid "Information"
+msgstr "情報"
+
+#: dkan_dataset/dkan_dataset.admin.inc:138 dkan_dataset_backup/dkan_dataset.admin.inc:138
+msgid "Suggested formats:"
+msgstr ""
+
+#: dkan_dataset/dkan_dataset.forms.inc:85 dkan_dataset_backup/dkan_dataset.forms.inc:85
+msgid "[dataset]"
+msgstr ""
+
+#: dkan_dataset/dkan_dataset.forms.inc:97 dkan_dataset_backup/dkan_dataset.forms.inc:97
+msgid "eg. A descriptive title"
+msgstr "タイトルを分かりやすく入力します"
+
+#: dkan_dataset/dkan_dataset.forms.inc:110 dkan_dataset_backup/dkan_dataset.forms.inc:110
+msgid "eg. economy, mental health, government"
+msgstr "例：経済、健康、政府"
+
+#: dkan_dataset/dkan_dataset.forms.inc:115 dkan_dataset_backup/dkan_dataset.forms.inc:115
+msgid "License definitions and additional information can be found at "
+msgstr "ライセンスの定義の詳細は、こちらをご覧ください "
+
+#: dkan_dataset/dkan_dataset.forms.inc:122 dkan_dataset_backup/dkan_dataset.forms.inc:122
+msgid "key"
+msgstr "キー"
+
+#: dkan_dataset/dkan_dataset.forms.inc:123 dkan_dataset_backup/dkan_dataset.forms.inc:123
+msgid "value"
+msgstr "値"
+
+#: dkan_dataset/dkan_dataset.forms.inc:141;241;331 dkan_dataset_backup/dkan_dataset.forms.inc:141;239 dkan_sitewide/modules/dkan_sitewide_profile_page/dkan_sitewide_profile_page.features.menu_links.inc:426
+msgid "Groups"
+msgstr "グループ"
+
+#: dkan_dataset/dkan_dataset.forms.inc:155 dkan_dataset_backup/dkan_dataset.forms.inc:155
+msgid "Next: Add data"
+msgstr "次：データの追加"
+
+#: dkan_dataset/dkan_dataset.forms.inc:172 dkan_dataset_backup/dkan_dataset.forms.inc:172
+msgid "Important: By submitting content, you agree to release your contributions under the Open Database License."
+msgstr "重要：コンテンツを登録すると、あなたはオープンデータのライセンスに同意したことになります。"
+
+#: dkan_dataset/dkan_dataset.forms.inc:187 dkan_dataset_backup/dkan_dataset.forms.inc:187
+msgid "Finish"
+msgstr "終了"
+
+#: dkan_dataset/dkan_dataset.forms.inc:204 dkan_dataset_backup/dkan_dataset.forms.inc:204
+msgid "Dataset that this resource is attached to."
+msgstr "このリソースが紐づくデータセットを選択してください。"
+
+#: dkan_dataset/dkan_dataset.forms.inc:228
+msgid "Link to a public API or information source."
+msgstr ""
+
+#: dkan_dataset/dkan_dataset.forms.inc:230 dkan_dataset_backup/dkan_dataset.forms.inc:228
+msgid "eg. January Gold Prices"
+msgstr "例：1月の金の価格"
+
+#: dkan_dataset/dkan_dataset.forms.inc:271 dkan_dataset_backup/dkan_dataset.forms.inc:269
+msgid "Next: Additional Info"
+msgstr "次：詳細情報の追加"
+
+#: dkan_dataset/dkan_dataset.forms.inc:290 dkan_dataset_backup/dkan_dataset.forms.inc:288
+msgid "Save and add another"
+msgstr "保存して別のリソースを追加"
+
+#: dkan_dataset/dkan_dataset.forms.inc:306
+msgid "This resource is not assigned to any groups. Groups can only be assigned to Datasets. Resources are always a part of the parent Datasets's groups"
+msgstr ""
+
+#: dkan_dataset/dkan_dataset.forms.inc:318
+msgid "This resource is in the following groups: !groups Groups can only be assigned to Datasets. Resources are always a part of the parent Datasets's groups."
+msgstr ""
+
+#: dkan_dataset/dkan_dataset.forms.inc:321
+msgid "No groups are attached to this resource. Groups can only be attached on datasets that resources are linked to."
+msgstr ""
+
+#: dkan_dataset/dkan_dataset.forms.inc:511 dkan_dataset_backup/dkan_dataset.forms.inc:480
+msgid "File format will be autodetected"
+msgstr ""
+
+#: dkan_dataset/dkan_dataset.forms.inc:515 dkan_dataset_backup/dkan_dataset.forms.inc:484
+msgid "eg. Some useful notes about the data"
+msgstr "データに関する情報を入力します"
+
+#: dkan_dataset/dkan_dataset.forms.inc:649;670 dkan_dataset_backup/dkan_dataset.forms.inc:618;639
+msgid "What are datasets?"
+msgstr "データセットとは？"
+
+#: dkan_dataset/dkan_dataset.forms.inc:652;675 dkan_dataset_backup/dkan_dataset.forms.inc:621;644
+msgid "What is data?"
+msgstr "データとは？"
+
+#: dkan_dataset/dkan_dataset.forms.inc:655;680 dkan_dataset/dkan_dataset.theme.inc:283 dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1155 dkan_dataset_backup/dkan_dataset.forms.inc:624;649 dkan_dataset_backup/dkan_dataset.theme.inc:283 dkan_dataset_backup/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1149
+msgid "Resources"
+msgstr "リソース"
+
+#: dkan_dataset/dkan_dataset.forms.inc:658;685 dkan_dataset_backup/dkan_dataset.forms.inc:627;654 dkan_sitewide/modules/dkan_sitewide_profile_page/dkan_sitewide_profile_page.features.menu_links.inc:437
+msgid "Visualizations"
+msgstr ""
+
+#: dkan_dataset/dkan_dataset.forms.inc:698 dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.inc:72 dkan_dataset_backup/dkan_dataset.forms.inc:667 dkan_dataset_backup/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.inc:72
+msgid "Datasets are simply used to group related pieces of data. These can then be found under a single url with a description and licensing information."
+msgstr "データセットは、単に個々のデータを紐付けるためのグループとして使われます。そのグループの説明とライセンス情報を、１つのURLで表現します。"
+
+#: dkan_dataset/dkan_dataset.forms.inc:705 dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.inc:80 dkan_dataset_backup/dkan_dataset.forms.inc:674 dkan_dataset_backup/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.inc:80
+msgid "Data can be any file or link to a file containing useful data."
+msgstr "データとは、有用なデータを含むファイルか、そのファイルへのリンクのことです。"
+
+#: dkan_dataset/dkan_dataset.pages.inc:19 dkan_dataset_backup/dkan_dataset.pages.inc:19
+msgid "There is no dataset associated with this resource."
+msgstr ""
+
+#: dkan_dataset/dkan_dataset.pages.inc:61 dkan_dataset_backup/dkan_dataset.pages.inc:61
+msgid "!file could not be added to Zip."
+msgstr ""
+
+#: dkan_dataset/dkan_dataset.pages.inc:78 dkan_dataset_backup/dkan_dataset.pages.inc:78
+msgid "Unable to create file !filename."
+msgstr ""
+
+#: dkan_dataset/dkan_dataset.theme.inc:72 dkan_dataset/dkan_dataset.module:234;256 dkan_dataset_backup/dkan_dataset.theme.inc:72 dkan_dataset_backup/dkan_dataset.module:234;256
+msgid "Data and Resources"
+msgstr "データとリソース"
+
+#: dkan_dataset/dkan_dataset.theme.inc:94 dkan_dataset/dkan_dataset.module:984 dkan_dataset_backup/dkan_dataset.theme.inc:94 dkan_dataset_backup/dkan_dataset.module:911
+msgid "data"
+msgstr ""
+
+#: dkan_dataset/dkan_dataset.theme.inc:184 dkan_dataset_backup/dkan_dataset.theme.inc:184 dkan_datastore/dkan_datastore.module:21
+msgid "Download"
+msgstr "ダウンロード"
+
+#: dkan_dataset/dkan_dataset.theme.inc:196 dkan_dataset_backup/dkan_dataset.theme.inc:196
+msgid "Go to resource"
+msgstr ""
+
+#: dkan_dataset/dkan_dataset.theme.inc:213 dkan_dataset_backup/dkan_dataset.theme.inc:213
+msgid "Open With"
+msgstr ""
+
+#: dkan_dataset/dkan_dataset.theme.inc:231 dkan_dataset/dkan_dataset.module:908 dkan_dataset_backup/dkan_dataset.theme.inc:231 dkan_dataset_backup/dkan_dataset.module:835
+msgid "Preview"
+msgstr "プレビュー"
+
+#: dkan_dataset/dkan_dataset.module:122;239;261 dkan_dataset_backup/dkan_dataset.module:122;239;261
+msgid "Release Date"
+msgstr "公開日"
+
+#: dkan_dataset/dkan_dataset.module:134;244;266 dkan_dataset_backup/dkan_dataset.module:134;244;266
+msgid "Modified Date"
+msgstr "更新日"
+
+#: dkan_dataset/dkan_dataset.module:146;249;271 dkan_dataset_backup/dkan_dataset.module:146;249;271
+msgid "Identifier"
+msgstr "識別子"
+
+#: dkan_dataset/dkan_dataset.module:184 dkan_dataset_backup/dkan_dataset.module:184
+msgid "Topic with icon"
+msgstr ""
+
+#: dkan_dataset/dkan_dataset.module:235;257 dkan_dataset_backup/dkan_dataset.module:235;257
+msgid "Shows book children of dataset"
+msgstr ""
+
+#: dkan_dataset/dkan_dataset.module:240;262 dkan_dataset_backup/dkan_dataset.module:240;262
+msgid "Node published date available as a field"
+msgstr ""
+
+#: dkan_dataset/dkan_dataset.module:245;267 dkan_dataset_backup/dkan_dataset.module:245;267
+msgid "Node changed date available as a field"
+msgstr ""
+
+#: dkan_dataset/dkan_dataset.module:250;272 dkan_dataset_backup/dkan_dataset.module:250;272
+msgid "Unique identifier for dataset"
+msgstr ""
+
+#: dkan_dataset/dkan_dataset.module:406;410;414;418 dkan_dataset_backup/dkan_dataset.module:406;410;414;418
+msgid "Additional data"
+msgstr "詳細情報の追加"
+
+#: dkan_dataset/dkan_dataset.module:424;433 dkan_dataset_backup/dkan_dataset.module:424;433
+msgid "Edit dataset"
+msgstr "データセットの編集"
+
+#: dkan_dataset/dkan_dataset.module:436 dkan_dataset_backup/dkan_dataset.module:436 dkan_sitewide/modules/dkan_sitewide_profile_page/dkan_sitewide_profile_page.features.menu_links.inc:422
+msgid "Add dataset"
+msgstr ""
+
+#: dkan_dataset/dkan_dataset.module:444;454 dkan_dataset_backup/dkan_dataset.module:444;454
+msgid "Create dataset"
+msgstr "データセットの作成"
+
+#: dkan_dataset/dkan_dataset.module:447;457 dkan_dataset_backup/dkan_dataset.module:447;457
+msgid "Add data"
+msgstr "データの追加"
+
+#: dkan_dataset/dkan_dataset.module:812
+msgid "%d resources were queued to be updated with their new groups. They will be processed during upcoming cron runs."
+msgstr ""
+
+#: dkan_dataset/dkan_dataset.module:817
+msgid "Groups were updated on %d resource(s)."
+msgstr ""
+
+#: dkan_dataset/dkan_dataset.module:879 dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.field_group.inc:177 dkan_dataset_backup/dkan_dataset.module:806 dkan_dataset_backup/modules/dkan_dataset_groups/dkan_dataset_groups.field_group.inc:177 dkan_sitewide/modules/dkan_sitewide_menu/dkan_sitewide_menu.features.menu_links.inc:82 dkan_sitewide/modules/dkan_sitewide_profile_page/dkan_sitewide_profile_page.features.menu_links.inc:425
+msgid "Datasets"
+msgstr "データセット"
+
+#: dkan_dataset/dkan_dataset.module:880 dkan_dataset_backup/dkan_dataset.module:807 dkan_sitewide/dkan_sitewide.blocks.inc:29 dkan_sitewide/dkan_sitewide.module:92
+msgid "Search"
+msgstr "検索"
+
+#: dkan_dataset/dkan_dataset.module:911 dkan_dataset_backup/dkan_dataset.module:838
+msgid "Local preview. Preview tabular data in a grid, basic chart or map. This preview type is not optional and will load only for the suggested formats listed."
+msgstr ""
+
+#: dkan_dataset/dkan_dataset.module:917 dkan_dataset_backup/dkan_dataset.module:844
+msgid "ArcGIS Preview"
+msgstr ""
+
+#: dkan_dataset/dkan_dataset.module:920 dkan_dataset_backup/dkan_dataset.module:847
+msgid "ArcGIS preview for ESRI endpoints. Requires a URL in the resource API field; will not work with resource files."
+msgstr ""
+
+#: dkan_dataset/dkan_dataset.module:923 dkan_dataset_backup/dkan_dataset.module:850
+msgid "CartoDB Preview"
+msgstr ""
+
+#: dkan_dataset/dkan_dataset.module:926 dkan_dataset_backup/dkan_dataset.module:853
+msgid "Previews resources with geodata in the CartoDB mapping service."
+msgstr ""
+
+#: dkan_dataset/dkan_dataset.module:1057 dkan_dataset_backup/dkan_dataset.module:984
+msgid "Search Result"
+msgstr ""
+
+#: dkan_dataset/dkan_dataset.module:35 dkan_dataset_backup/dkan_dataset.module:35
+msgid "Add Resource"
+msgstr "リソースの追加"
+
+#: dkan_dataset/dkan_dataset.module:45 dkan_dataset_backup/dkan_dataset.module:45
+msgid "Back to dataset"
+msgstr "データセットへ戻る"
+
+#: dkan_dataset/dkan_dataset.module:55 dkan_dataset_backup/dkan_dataset.module:55
+msgid "Download Dataset"
+msgstr ""
+
+#: dkan_dataset/dkan_dataset.module:65 dkan_dataset_backup/dkan_dataset.module:65
+msgid "DKAN Settings and Administration."
+msgstr ""
+
+#: dkan_dataset/dkan_dataset.module:74 dkan_dataset_backup/dkan_dataset.module:74
+msgid "DKAN Dataset Previews"
+msgstr ""
+
+#: dkan_dataset/dkan_dataset.module:75 dkan_dataset_backup/dkan_dataset.module:75
+msgid "Settings for DKAN Dataset local and external previews."
+msgstr ""
+
+#: dkan_dataset/dkan_dataset.module:82 dkan_dataset_backup/dkan_dataset.module:82
+msgid "DKAN Dataset Forms"
+msgstr ""
+
+#: dkan_dataset/dkan_dataset.module:83 dkan_dataset_backup/dkan_dataset.module:83
+msgid "Form settings for DKAN Datasets."
+msgstr ""
+
+#: dkan_dataset/dkan_dataset.module:91 dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:15 dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.info:0 dkan_dataset_backup/dkan_dataset.module:91 dkan_dataset_backup/modules/dkan_dataset_api/dkan_dataset_api.module:15 dkan_dataset_backup/modules/dkan_dataset_api/dkan_dataset_api.info:0
+msgid "DKAN Dataset API"
+msgstr ""
+
+#: dkan_dataset/dkan_dataset.module:92 dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:16 dkan_dataset_backup/dkan_dataset.module:92 dkan_dataset_backup/modules/dkan_dataset_api/dkan_dataset_api.module:16
+msgid "Settings for DKAN Dataset APIs."
+msgstr ""
+
+#: dkan_dataset/dkan_dataset.info:0 dkan_dataset_backup/dkan_dataset.info:0
+msgid "DKAN Dataset"
+msgstr ""
+
+#: dkan_dataset/dkan_dataset.info:0 dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.info:0 dkan_dataset_backup/dkan_dataset.info:0 dkan_dataset_backup/modules/dkan_dataset_content_types/dkan_dataset_content_types.info:0
+msgid "Custom elements for Datasets."
+msgstr ""
+
+#: dkan_dataset/js/dataset.js:0;0 dkan_dataset_backup/js/dataset.js:0;0
+msgid "Show more"
+msgstr ""
+
+#: dkan_dataset/js/dataset.js:0 dkan_dataset_backup/js/dataset.js:0
+msgid "hide"
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.inc:71;142;143 dkan_dataset_backup/modules/dkan_dataset_api/dkan_dataset_api.inc:71;142;143
+msgid "public"
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:163 dkan_dataset_backup/modules/dkan_dataset_api/dkan_dataset_api.module:163
+msgid "Data catalog (data.json) settings"
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:164 dkan_dataset_backup/modules/dkan_dataset_api/dkan_dataset_api.module:164
+msgid "Configuration for site's public data catalog. See !link for more information."
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:164 dkan_dataset_backup/modules/dkan_dataset_api/dkan_dataset_api.module:164
+msgid "Project Open Data"
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:168 dkan_dataset_backup/modules/dkan_dataset_api/dkan_dataset_api.module:168
+msgid "Data Catalog Description"
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:169 dkan_dataset_backup/modules/dkan_dataset_api/dkan_dataset_api.module:169
+msgid "Description field for data catalog. Should usually just read \"Data Catalog.\""
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:174 dkan_dataset_backup/modules/dkan_dataset_api/dkan_dataset_api.module:174
+msgid "Data Catalog Contact Point"
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:175 dkan_dataset_backup/modules/dkan_dataset_api/dkan_dataset_api.module:175
+msgid "The name of the main contact point for the data catalog. Usually an individual person."
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:180 dkan_dataset_backup/modules/dkan_dataset_api/dkan_dataset_api.module:180
+msgid "Data Catalog Contact Email"
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:181 dkan_dataset_backup/modules/dkan_dataset_api/dkan_dataset_api.module:181
+msgid "The main contact email for inquiries regarding the data catalog."
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:187 dkan_dataset_backup/modules/dkan_dataset_api/dkan_dataset_api.module:187
+msgid "Enabled Dataset APIs."
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:188 dkan_dataset_backup/modules/dkan_dataset_api/dkan_dataset_api.module:188
+msgid "Toggle public APIs below."
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:192;197 dkan_dataset_backup/modules/dkan_dataset_api/dkan_dataset_api.module:192;197
+msgid "site_read"
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:193;205;217;242;299 dkan_dataset_backup/modules/dkan_dataset_api/dkan_dataset_api.module:193;205;217;242;299
+msgid "Demo at !demo. More information on !url."
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:204;209 dkan_dataset_backup/modules/dkan_dataset_api/dkan_dataset_api.module:204;209
+msgid "data.json"
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:216 dkan_dataset_backup/modules/dkan_dataset_api/dkan_dataset_api.module:216
+msgid "revision_list"
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:221 dkan_dataset_backup/modules/dkan_dataset_api/dkan_dataset_api.module:221
+msgid "dkan_dataset_revision_list"
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:228;233 dkan_dataset_backup/modules/dkan_dataset_api/dkan_dataset_api.module:228;233
+msgid "package_list"
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:229 dkan_dataset_backup/modules/dkan_dataset_api/dkan_dataset_api.module:229
+msgid "Demo at !demo. More information on !url. This also mirrors the deprecated !legacy."
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:234;258 dkan_dataset_backup/modules/dkan_dataset_api/dkan_dataset_api.module:234;258
+msgid "rest/dataset"
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:241;246 dkan_dataset_backup/modules/dkan_dataset_api/dkan_dataset_api.module:241;246
+msgid "current_package_list_with_resources"
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:253;257;269;280 dkan_dataset_backup/modules/dkan_dataset_api/dkan_dataset_api.module:253;257;269;280
+msgid "package_show"
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:254 dkan_dataset_backup/modules/dkan_dataset_api/dkan_dataset_api.module:254
+msgid "More information on !url. This also mirrors the deprecated !legacy."
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:265 dkan_dataset_backup/modules/dkan_dataset_api/dkan_dataset_api.module:265
+msgid "resource_show"
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:266;277;288 dkan_dataset_backup/modules/dkan_dataset_api/dkan_dataset_api.module:266;277;288
+msgid "More information on !url."
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:276 dkan_dataset_backup/modules/dkan_dataset_api/dkan_dataset_api.module:276
+msgid "group_package_show"
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:287;291 dkan_dataset_backup/modules/dkan_dataset_api/dkan_dataset_api.module:287;291
+msgid "package_revision_list"
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:298;303 dkan_dataset_backup/modules/dkan_dataset_api/dkan_dataset_api.module:298;303
+msgid "group_list"
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:319 dkan_dataset_backup/modules/dkan_dataset_api/dkan_dataset_api.module:319
+msgid "Return ``TRUE``.\n\n    :rtype: boolean\n\n"
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:350 dkan_dataset_backup/modules/dkan_dataset_api/dkan_dataset_api.module:350
+msgid "Return a list of the names of the site's datasets (packages).\n\n    :rtype: list of strings\n\n"
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:385 dkan_dataset_backup/modules/dkan_dataset_api/dkan_dataset_api.module:385
+msgid "Return a list of the IDs of the site's revisions.\n\n    :rtype: list of strings."
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:442 dkan_dataset_backup/modules/dkan_dataset_api/dkan_dataset_api.module:442
+msgid "Return a list of the site's datasets (packages) and their resources.\n\n    The list is sorted most-recently-modified first.\n\n    :param limit: if given, the list of datasets will be broken into pages of\n        at most ``limit`` datasets per page and only one page will be returned\n        at a time (optional)\n    :type limit: int\n    :param offset: when ``limit`` is given, the offset to start returning packages from\n    :type offset: int\n    :param page: when ``limit`` is given, which page to return, Deprecated use ``offset``\n    :type page: int\n\n    :rtype: list of dictionaries\n\n"
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:458;511 dkan_dataset_backup/modules/dkan_dataset_api/dkan_dataset_api.module:458;511
+msgid "Query offset out of range"
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:459;512 dkan_dataset_backup/modules/dkan_dataset_api/dkan_dataset_api.module:459;512
+msgid "Offset parameter is out of range"
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:480 dkan_dataset_backup/modules/dkan_dataset_api/dkan_dataset_api.module:480
+msgid "Return the datasets (packages) of a group.\n\n    :param id: the id of the group\n    :type id: string\n    :param limit: the maximum number of datasets to return (optional)\n    :type limit: int\n\n    :rtype: list of dictionaries\n\n"
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:524;578;632;696 dkan_dataset_backup/modules/dkan_dataset_api/dkan_dataset_api.module:524;578;632;696
+msgid "Not Found Error"
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:525;579;633;697 dkan_dataset_backup/modules/dkan_dataset_api/dkan_dataset_api.module:525;579;633;697
+msgid "Not Found"
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:532;586;640;704;724 dkan_dataset_backup/modules/dkan_dataset_api/dkan_dataset_api.module:532;586;640;704;724
+msgid "Validation Error"
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:533;587;641;705 dkan_dataset_backup/modules/dkan_dataset_api/dkan_dataset_api.module:533;587;641;705
+msgid "Missing Value"
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:549 dkan_dataset_backup/modules/dkan_dataset_api/dkan_dataset_api.module:549
+msgid "Return the metadata of a dataset (package) and its resources.\n\n :param id: the id or name of the dataset :type id: string \n\n:rtype: dictionary"
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:603 dkan_dataset_backup/modules/dkan_dataset_api/dkan_dataset_api.module:603
+msgid "Return the metadata of a dataset resource.\n\n :param id: the id or name of the resource :type id: string \n\n:rtype: dictionary"
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:658 dkan_dataset_backup/modules/dkan_dataset_api/dkan_dataset_api.module:658
+msgid "Return a dataset (package)'s revisions as a list of dictionaries.\n\n    :param id: the id or name of the dataset\n    :type id: string\n\n"
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:720 dkan_dataset_backup/modules/dkan_dataset_api/dkan_dataset_api.module:720
+msgid "Return a list of the names of the site's groups.\n\n    :param order_by: the field to sort the list by, must be ``'name'`` or\n      ``'packages'`` (optional, default: ``'name'``) Deprecated use sort.\n    :type order_by: string\n    :param sort: sorting of the search results.  Optional.  Default:\n        \"name asc\" string of field name and sort-order. The allowed fields are\n        'name' and 'packages'\n    :type sort: string\n    :param all_fields: return full group dictionaries instead of  just names\n        (optional, default: ``False``)\n    :type all_fields: boolean\n\n    :rtype: list of strings"
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:735 dkan_dataset_backup/modules/dkan_dataset_api/dkan_dataset_api.module:735
+msgid ": not a valid value for argument `order_by`. Only `name` and `packages` are permitted"
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:749 dkan_dataset_backup/modules/dkan_dataset_api/dkan_dataset_api.module:749
+msgid ": not a valid value for argument `sort`. Only `name asc`, `name desc`, `package asc` and `package desc` are permitted"
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.module:781 dkan_dataset_backup/modules/dkan_dataset_api/dkan_dataset_api.module:781
+msgid ": not a valid value for argument `all_fields`. Only `true` and `FALSE`"
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.info:0 dkan_dataset_backup/modules/dkan_dataset_api/dkan_dataset_api.info:0
+msgid "Adds package, group, and tag APIs based on the CKAN API."
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_api/dkan_dataset_api.info:0 dkan_dataset_backup/modules/dkan_dataset_api/dkan_dataset_api.info:0 dkan_datastore/modules/dkan_datastore_api/dkan_datastore_api.info:0
+msgid "DKAN API"
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:85;1169 dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.field_group.inc:49 dkan_sitewide/dkan_sitewide.blocks.inc:120
+msgid "Value"
+msgstr "値"
+
+#: dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:101;1134 dkan_dataset_backup/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:101;1128
+msgid "Additional Info"
+msgstr "追加情報"
+
+#: dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:162;1136 dkan_dataset_backup/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1130 dkan_sitewide/modules/dkan_sitewide_panels/dkan_sitewide_panels.pages_default.inc:1302
+msgid "Author"
+msgstr "投稿者"
+
+#: dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:202;1137 dkan_dataset_backup/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1131
+msgid "Contact Email"
+msgstr "連絡先メールアドレス"
+
+#: dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:242;1138 dkan_dataset_backup/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1132
+msgid "Contact Name"
+msgstr "連絡先担当者"
+
+#: dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:282;1141 dkan_dataset_backup/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1135
+msgid "Data Dictionary"
+msgstr "データディクショナリ"
+
+#: dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:304;1163 dkan_dataset_backup/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1157
+msgid "The frequency with which dataset is published.See <a href=\"http://www.w3.org/TR/vocab-dcat/#Property:dataset_frequency\">DCAT frequency</a> for more info."
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:450;1162 dkan_dataset_backup/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1156
+msgid "The degree to which this dataset <em>could</em> be made publicly-available, regardless of whether it has been made available. See <a href=\"http://project-open-data.github.io/schema/#common-core-required-fields\">Project Open Data</a> for more info."
+msgstr ""
+"データセットの公開に関する度合いを指定します。詳細は<a "
+"href=\"http://project-open-data.github.io/schema/#common-core-required-fields\">Project "
+"Open Data</a>を参照してください。"
+
+#: dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:507;1154 dkan_dataset_backup/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1148
+msgid "Related Content"
+msgstr "関連コンテンツ"
+
+#: dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:583;1158 dkan_dataset_backup/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1152
+msgid "Spatial coverage of the dataset. Will be rendered as GeoJSON. See DCAT <a href=\"http://www.w3.org/TR/vocab-dcat/#Property:dataset_spatial\">spatial/geographical coverage</a> for more info."
+msgstr ""
+"データセットの存在範囲を指定します。GeoJSONとしてレンダリングされます。詳細は "
+"DCATの<a "
+"href=\"http://www.w3.org/TR/vocab-dcat/#Property:dataset_spatial\">spatial/geographical "
+"coverage</a>を参照してください。"
+
+#: dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:603;1156 dkan_dataset_backup/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1150
+msgid "Spatial / Geographical Coverage Area"
+msgstr "データの存在範囲"
+
+#: dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:647;1159 dkan_dataset_backup/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1153
+msgid "Spatial location of the dataset. Could be Address, City, State, part of the world or other description. See DCAT <a href=\"http://www.w3.org/TR/vocab-dcat/#Property:dataset_spatial\">spatial/geographical coverage</a> for more info."
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:728;1164 dkan_dataset_backup/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1158
+msgid "The temporal period that the dataset covers. See DCAT <a href=\"http://www.w3.org/TR/vocab-dcat/#Property:dataset_temporal\">temporal coverage</a> for more info."
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1135 dkan_dataset_backup/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1129
+msgid "An internal link or link to an outside resource that provides additional context to the dataset."
+msgstr "データセットに関連する、内部リンクまたは外部リソースへのリンクを指定します。"
+
+#: dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1139 dkan_dataset_backup/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1133
+msgid "Contact person’s email address. See <a href=\"http://project-open-data.github.io/schema/#common-core-required-fields\">Project Open Data</a> for more info."
+msgstr ""
+"連絡先担当者のメールアドレスを入力します。詳細は<a "
+"href=\"http://project-open-data.github.io/schema/#common-core-required-fields\">Project "
+"Open Data</a>を参照してください。"
+
+#: dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1140 dkan_dataset_backup/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1134
+msgid "Contact person’s name for the asset. See <a href=\"http://project-open-data.github.io/schema/#common-core-required-fields\">Project Open Data</a> for more info. Name should be formatted as Last, First."
+msgstr ""
+"連絡先の担当者名を入力します。<a "
+"href=\"http://project-open-data.github.io/schema/#common-core-required-fields\">Project "
+"Open Data</a> "
+"を参照して入力してください。名前は、Last "
+"Name（苗字）, First "
+"Name（名）の形式である必要があります。"
+
+#: dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1142 dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.inc:70 dkan_dataset_backup/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1136 dkan_dataset_backup/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.inc:70 dkan_sitewide/modules/dkan_sitewide_demo_front/dkan_sitewide_demo_front.module:134
+msgid "Dataset"
+msgstr "データセット"
+
+#: dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1143 dkan_dataset_backup/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1137
+msgid "Description"
+msgstr "説明"
+
+#: dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1145 dkan_dataset_backup/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1139
+msgid "Frequency"
+msgstr "更新頻度"
+
+#: dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1146 dkan_dataset_backup/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1140
+msgid "Granularity"
+msgstr "処理単位"
+
+#: dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1147 dkan_dataset_backup/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1141
+msgid "Groups audience"
+msgstr "グループ 視聴者"
+
+#: dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1148 dkan_dataset_backup/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1142 dkan_sitewide/dkan_sitewide.blocks.inc:13;61 dkan_sitewide/modules/dkan_sitewide_panels/dkan_sitewide_panels.pages_default.inc:1333
+msgid "License"
+msgstr "ライセンス"
+
+#: dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1149 dkan_dataset_backup/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1143
+msgid "License definitions and additional information can be found at <a href=\"http://opendefinition.org\">opendefinition.org</a>"
+msgstr ""
+"ライセンスの定義の詳細は、こちらをご覧ください "
+"<a href=\"http://opendefinition.org\">opendefinition.org</a>"
+
+#: dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1150 dkan_dataset_backup/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1144
+msgid "Link API"
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1151 dkan_dataset_backup/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1145
+msgid "Link File"
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1152 dkan_dataset_backup/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1146
+msgid "Provides some sort of description that helps understanding the data. This usually consists of a table providing explanation of columns meaning, values interpretation and acronyms/codes used in the data. Can be a URL to such a resource. See Project Open Data <a href=\"http://project-open-data.github.io/schema/#common-core-required-if-applicable-fields\">data dictionary</a> for more info."
+msgstr ""
+"データの解説文を入力します。本項目は、列の意味や、データの中に出現する頭字語やコード値の解説に使用してください。解説文へのURLを指定することもできます。Project "
+"Open Dataの <a "
+"href=\"http://project-open-data.github.io/schema/#common-core-required-if-applicable-fields\">data "
+"dictionary</a> を参照して入力してください。"
+
+#: dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1153 dkan_dataset_backup/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1147
+msgid "Public Access Level"
+msgstr "公開レベル"
+
+#: dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1157 dkan_dataset_backup/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1151
+msgid "Spatial / Geographical Coverage Location"
+msgstr "データの存在場所"
+
+#: dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1161 dkan_dataset_backup/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1155
+msgid "Temporal Coverage"
+msgstr "時間的範囲"
+
+#: dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1165 dkan_dataset_backup/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1159
+msgid "This is the author of the dataset."
+msgstr "データセットの投稿者を入力してください。"
+
+#: dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1166 dkan_dataset_backup/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1160
+msgid "This is usually geographical or temporal but can also be other dimension e.g. Person can be used to describe granularity of a dataset about average income. See <a href=\"http://project-open-data.github.io/schema/#expanded-fields\">DCAT Granularity</a> for more info."
+msgstr ""
+"これは大抵地理的なものや時間的なものですが、それ以外の単位でも問題ありません。例えば、平均所得を分析するためにも使われます。詳細は<a "
+"href=\"http://project-open-data.github.io/schema/#expanded-fields\">DCAT "
+"Granularity</a>を参照してください。"
+
+#: dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1167 dkan_dataset_backup/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1161
+msgid "Upload"
+msgstr "アップロード"
+
+#: dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.field_instance.inc:1168 dkan_sitewide/dkan_sitewide.blocks.inc:120
+msgid "Field"
+msgstr "フィールド"
+
+#: dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.inc:78 dkan_dataset_backup/modules/dkan_dataset_content_types/dkan_dataset_content_types.features.inc:78
+msgid "Resource"
+msgstr "リソース"
+
+#: dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.field_group.inc:47
+msgid "<div class=\"fieldset-description\"><i class=\"icon-large icon-info-sign\"></i>These fields are compatible with <a href=\"http://www.w3.org/TR/vocab-dcat/\">DCAT</a>, an RDF vocabulary designed to facilitate interoperability between data catalogs published on the Web.</div>"
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.field_group.inc:91 dkan_dataset_backup/modules/dkan_dataset_content_types/dkan_dataset_content_types.field_group.inc:91
+msgid "<i class=\"icon-large icon-info-sign\"></i>These fields are compatible with <a href=\"http://www.w3.org/TR/vocab-dcat/\">DCAT</a>, an RDF vocabulary designed to facilitate interoperability between data catalogs published on the Web. These fields are also compatible with the Common Core metadata schema from <a href=\"http://project-open-data.github.io/schema/\">Project Open Data</a>."
+msgstr ""
+"<i class=\"icon-large "
+"icon-info-sign\"></i>これらのフィールドは、Web上で公開されたデータカタログ間の互換性を保つために設計された、<a "
+"href=\"http://www.w3.org/TR/vocab-dcat/\">DCAT</a>（データカタログ語彙）のRDFを使用しています。<a "
+"href=\"http://project-open-data.github.io/schema/\">Project Open "
+"Data</a>の共通メタデータスキーマと互換性があります。"
+
+#: dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.module:16 dkan_dataset_backup/modules/dkan_dataset_content_types/dkan_dataset_content_types.module:16
+msgid "- Select a value -"
+msgstr "- 値を選択してください -"
+
+#: dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.module:31 dkan_dataset_backup/modules/dkan_dataset_content_types/dkan_dataset_content_types.module:31
+msgid "Render license as a link"
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_content_types/dkan_dataset_content_types.info:0 dkan_dataset_backup/modules/dkan_dataset_content_types/dkan_dataset_content_types.info:0
+msgid "DKAN Dataset Content Types"
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.context.inc:69 dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.features.field_instance.inc:259 dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.features.inc:138 dkan_dataset_backup/modules/dkan_dataset_groups/dkan_dataset_groups.context.inc:69 dkan_dataset_backup/modules/dkan_dataset_groups/dkan_dataset_groups.features.field_instance.inc:259 dkan_dataset_backup/modules/dkan_dataset_groups/dkan_dataset_groups.features.inc:138
+msgid "Group"
+msgstr "グループ"
+
+#: dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.features.field_instance.inc:38;261 dkan_dataset_backup/modules/dkan_dataset_groups/dkan_dataset_groups.features.field_instance.inc:261 dkan_sitewide/modules/dkan_sitewide_panels/dkan_sitewide_panels.pages_default.inc:1271
+msgid "Publisher"
+msgstr "作成者"
+
+#: dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.features.field_instance.inc:258 dkan_dataset_backup/modules/dkan_dataset_groups/dkan_dataset_groups.features.field_instance.inc:258
+msgid "Determine if this is an OG group."
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.features.inc:140 dkan_dataset_backup/modules/dkan_dataset_groups/dkan_dataset_groups.features.inc:140
+msgid "Groups allow you to group together datasets under a organisation (for example, the Department of Health) or topic (e.g. Transport, Health) so make it easier for users to browse datasets by theme.\n\nGroups also enable you to assign roles and authorisation to members of the group - i.e. individuals can be given the right to publish datasets from a particular organisation."
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.field_group.inc:176 dkan_dataset_backup/modules/dkan_dataset_groups/dkan_dataset_groups.field_group.inc:176 dkan_sitewide/modules/dkan_sitewide_menu/dkan_sitewide_menu.features.content_menu_links.inc:34 dkan_sitewide/modules/dkan_sitewide_menu/dkan_sitewide_menu.features.menu_links.inc:80 dkan_sitewide/modules/dkan_sitewide_user/dkan_sitewide_user.features.field_instance.inc:49
+msgid "About"
+msgstr "アバウト"
+
+#: dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.field_group.inc:178 dkan_dataset_backup/modules/dkan_dataset_groups/dkan_dataset_groups.field_group.inc:178
+msgid "Members"
+msgstr "メンバー"
+
+#: dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.field_group.inc:179 dkan_dataset_backup/modules/dkan_dataset_groups/dkan_dataset_groups.field_group.inc:179
+msgid "Tabs"
+msgstr "タブ"
+
+#: dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.module:19 dkan_dataset_backup/modules/dkan_dataset_groups/dkan_dataset_groups.module:19 dkan_sitewide/modules/dkan_sitewide_search_db/dkan_sitewide_search_db.module:18
+msgid "Add @groupname"
+msgstr "@groupnameを追加"
+
+#: dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.module:62 dkan_dataset_backup/modules/dkan_dataset_groups/dkan_dataset_groups.module:62
+msgid "Your membership is pending approval."
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.module:62 dkan_dataset_backup/modules/dkan_dataset_groups/dkan_dataset_groups.module:62
+msgid "Remove pending membership request"
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.module:130 dkan_dataset_backup/modules/dkan_dataset_groups/dkan_dataset_groups.module:130
+msgid "Members page for datasets"
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.module:131 dkan_dataset_backup/modules/dkan_dataset_groups/dkan_dataset_groups.module:131
+msgid "Determine context from the path."
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.module:171 dkan_dataset_backup/modules/dkan_dataset_groups/dkan_dataset_groups.module:171
+msgid "!group Members"
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.module:226
+msgid "Ascending"
+msgstr "昇順"
+
+#: dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.module:227
+msgid "Descending"
+msgstr "降順"
+
+#: dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.info:0 dkan_dataset_backup/modules/dkan_dataset_groups/dkan_dataset_groups.info:0
+msgid "DKAN Dataset Groups"
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.info:0 dkan_dataset_backup/modules/dkan_dataset_groups/dkan_dataset_groups.info:0
+msgid "Custom elements for groups."
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_groups/dkan_dataset_groups.info:0 dkan_dataset/modules/dkan_dataset_voting/dkan_dataset_voting.info:0 dkan_dataset_backup/modules/dkan_dataset_groups/dkan_dataset_groups.info:0 dkan_dataset_backup/modules/dkan_dataset_voting/dkan_dataset_voting.info:0 dkan_sitewide/modules/dkan_default_content/dkan_default_content.info:0
+msgid "DKAN Features"
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_groups/modules/dkan_dataset_groups_perms/dkan_dataset_groups_perms.info:0 dkan_dataset_backup/modules/dkan_dataset_groups/modules/dkan_dataset_groups_perms/dkan_dataset_groups_perms.info:0
+msgid "DKAN Dataset Groups Permissions"
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_groups/modules/dkan_dataset_groups_perms/dkan_dataset_groups_perms.info:0 dkan_dataset_backup/modules/dkan_dataset_groups/modules/dkan_dataset_groups_perms/dkan_dataset_groups_perms.info:0
+msgid "Defines permissions for groups."
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_groups/modules/dkan_dataset_groups_perms/dkan_dataset_groups_perms.info:0 dkan_dataset_backup/modules/dkan_dataset_groups/modules/dkan_dataset_groups_perms/dkan_dataset_groups_perms.info:0 dkan_sitewide/modules/dkan_sitewide_roles_perms/dkan_sitewide_roles_perms.info:0
+msgid "DKAN Deprecated"
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_voting/dkan_dataset_voting.features.field_instance.inc:111 dkan_dataset_backup/modules/dkan_dataset_voting/dkan_dataset_voting.features.field_instance.inc:111
+msgid "Rating"
+msgstr "レーティング"
+
+#: dkan_dataset/modules/dkan_dataset_voting/dkan_dataset_voting.info:0 dkan_dataset_backup/modules/dkan_dataset_voting/dkan_dataset_voting.info:0
+msgid "DKAN Dataset Voting"
+msgstr ""
+
+#: dkan_dataset/modules/dkan_dataset_voting/dkan_dataset_voting.info:0 dkan_dataset_backup/modules/dkan_dataset_voting/dkan_dataset_voting.info:0
+msgid "Adds voting to datasets."
+msgstr ""
+
+#: dkan_dataset_backup/dkan_dataset.module:739
+msgid "%d resource(s) were added to the group or groups for this dataset."
+msgstr ""
+
+#: dkan_dataset_backup/dkan_dataset.module:742
+msgid "%d resource(s) were removed from the group or groups for this dataset."
+msgstr ""
+
+#: dkan_dataset_backup/dkan_dataset.module:746
+msgid "%d resources were queued to be updated with the new groups. They will be processed during upcoming cron runs."
+msgstr ""
+
+#: dkan_datastore/dkan_datastore.pages.inc:19
+msgid "You need to add your file to the datastore in order to use the DATA API"
+msgstr ""
+
+#: dkan_datastore/dkan_datastore.pages.inc:23
+msgid "This resource can not be added to the datastore"
+msgstr ""
+
+#: dkan_datastore/dkan_datastore.pages.inc:44
+msgid "No download available for this resource"
+msgstr ""
+
+#: dkan_datastore/dkan_datastore.pages.inc:121
+msgid "Status"
+msgstr "状態"
+
+#: dkan_datastore/dkan_datastore.pages.inc:125
+msgid "Unlock this importer?"
+msgstr ""
+
+#: dkan_datastore/dkan_datastore.pages.inc:125 dkan_datastore/includes/DkanDatastore.inc:279
+msgid "Delete"
+msgstr "削除"
+
+#: dkan_datastore/dkan_datastore.pages.inc:125 dkan_datastore/includes/DkanDatastore.inc:186;279;310
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: dkan_datastore/dkan_datastore.pages.inc:129
+msgid "Not Locked"
+msgstr ""
+
+#: dkan_datastore/dkan_datastore.pages.inc:131
+msgid "This importer is not locked, therefore it cannot be unlocked."
+msgstr ""
+
+#: dkan_datastore/dkan_datastore.pages.inc:134
+msgid "Unlock (disabled)"
+msgstr ""
+
+#: dkan_datastore/dkan_datastore.pages.inc:137 dkan_datastore/dkan_datastore.module:71
+msgid "Unlock"
+msgstr "ロック解除"
+
+#: dkan_datastore/dkan_datastore.module:297;41
+msgid "Manage Datastore"
+msgstr "データストアの管理"
+
+#: dkan_datastore/dkan_datastore.module:311
+msgid "Your file for this resource is not added to the datastore. Click \"Manage Datastore\" to import file into the datastore."
+msgstr ""
+
+#: dkan_datastore/dkan_datastore.module:314
+msgid "Your file for this resource has been added to the datastore."
+msgstr ""
+
+#: dkan_datastore/dkan_datastore.module:390
+msgid "Datastore Status"
+msgstr ""
+
+#: dkan_datastore/dkan_datastore.module:438
+msgid "A file has been uploaded but not added to the datastore"
+msgstr ""
+
+#: dkan_datastore/dkan_datastore.module:438
+msgid "Data ready to be added"
+msgstr ""
+
+#: dkan_datastore/dkan_datastore.module:441
+msgid "Datastore enabled"
+msgstr ""
+
+#: dkan_datastore/dkan_datastore.module:443
+msgid "Correct file type not attached to resource"
+msgstr ""
+
+#: dkan_datastore/dkan_datastore.module:31
+msgid "Data API"
+msgstr ""
+
+#: dkan_datastore/dkan_datastore.module:51 dkan_datastore/includes/DkanDatastore.inc:186
+msgid "Import"
+msgstr "インポート"
+
+#: dkan_datastore/dkan_datastore.module:61
+msgid "Delete items"
+msgstr "アイテムを削除"
+
+#: dkan_datastore/dkan_datastore.module:81
+msgid "Drop Datastore"
+msgstr "データストアのクリア"
+
+#: dkan_datastore/dkan_datastore.info:0
+msgid "DKAN Datastore"
+msgstr ""
+
+#: dkan_datastore/dkan_datastore.info:0
+msgid "Creates a datastore designed to make it easy to share open data."
+msgstr ""
+
+#: dkan_datastore/includes/Datastore.inc:43
+msgid "uuid !uuid not found."
+msgstr ""
+
+#: dkan_datastore/includes/Datastore.inc:75
+msgid "Automatically created by datastore"
+msgstr ""
+
+#: dkan_datastore/includes/DkanDatastore.inc:170;269
+msgid "@source_name: Status"
+msgstr "@source_name: 状態"
+
+#: dkan_datastore/includes/DkanDatastore.inc:180
+msgid "Settings"
+msgstr "設定"
+
+#: dkan_datastore/includes/DkanDatastore.inc:186
+msgid "Import all content from source?"
+msgstr "ソースにある全てのコンテンツをインポートしますか？"
+
+#: dkan_datastore/includes/DkanDatastore.inc:198
+msgid "Importing (@progress %)"
+msgstr "インポート中 (@progress %)"
+
+#: dkan_datastore/includes/DkanDatastore.inc:203
+msgid "The file type for this resource is not supported by the datastore."
+msgstr ""
+
+#: dkan_datastore/includes/DkanDatastore.inc:209
+msgid "There is nothing to manage! You need to upload or link to a file in order to use the datastore."
+msgstr ""
+
+#: dkan_datastore/includes/DkanDatastore.inc:279
+msgid "Delete all items from source?"
+msgstr "ソースにある全てのアイテムを削除しますか？"
+
+#: dkan_datastore/includes/DkanDatastore.inc:283
+msgid "Deleting (@progress %)"
+msgstr "削除中 (@progress %)"
+
+#: dkan_datastore/includes/DkanDatastore.inc:288
+msgid "No feeds sources added to node."
+msgstr ""
+
+#: dkan_datastore/includes/DkanDatastore.inc:310
+msgid "Drop this datastore?"
+msgstr ""
+
+#: dkan_datastore/includes/DkanDatastore.inc:310;341
+msgid "Drop"
+msgstr "クリア"
+
+#: dkan_datastore/includes/DkanDatastore.inc:326
+msgid "Can't drop table"
+msgstr ""
+
+#: dkan_datastore/includes/DkanDatastore.inc:328
+msgid "You need to have a file or link imported to the datastore in order to drop it."
+msgstr ""
+
+#: dkan_datastore/includes/DkanDatastore.inc:331
+msgid "Drop (disabled)"
+msgstr ""
+
+#: dkan_datastore/includes/DkanDatastore.inc:336
+msgid "Drop tables"
+msgstr ""
+
+#: dkan_datastore/includes/DkanDatastore.inc:338
+msgid "Are you sure you want to drop the datastore?"
+msgstr "データストアをクリアしますか？"
+
+#: dkan_datastore/includes/DkanDatastore.inc:360
+msgid "Datastore dropped!"
+msgstr ""
+
+#: dkan_datastore/includes/DkanDatastore.inc:368;392 dkan_datastore/modules/dkan_datastore_api/dkan_datastore_api.info:0
+msgid "DKAN Datastore API"
+msgstr ""
+
+#: dkan_datastore/includes/DkanDatastore.inc:376
+msgid "This resources has a file that has not been added to the datastore."
+msgstr ""
+
+#: dkan_datastore/includes/DkanDatastore.inc:381
+msgid "This data source has not yet completed importing. Import is at @progress%. The API for this data source will be available upon the completion of the import process."
+msgstr ""
+
+#: dkan_datastore/includes/DkanDatastore.inc:384
+msgid "Access resource data via a web API with powerful query support."
+msgstr ""
+"web "
+"API経由のリソースへのアクセスは、強力なクエリをサポートしています。"
+
+#: dkan_datastore/includes/DkanDatastore.inc:385
+msgid "Resource ID"
+msgstr "リソースID"
+
+#: dkan_datastore/includes/DkanDatastore.inc:386
+msgid "The Resource ID for this resource is %id"
+msgstr "このリソースのリソースIDは %id です"
+
+#: dkan_datastore/includes/DkanDatastore.inc:387
+msgid "Example Query"
+msgstr "クエリの例"
+
+#: dkan_datastore/includes/DkanDatastore.inc:390
+msgid "Query this datastore and return first five results"
+msgstr "このクエリは、リソースの最初の5件を返します"
+
+#: dkan_datastore/includes/DkanDatastore.inc:391
+msgid "Documentation"
+msgstr "ドキュメント"
+
+#: dkan_datastore/includes/DkanDatastore.inc:393
+msgid "See DKAN API documentation for more details: %link"
+msgstr "DKAN API ドキュメントの詳細 : %link"
+
+#: dkan_datastore/includes/DkanDatastore.inc:400
+msgid "No files have been added to the datastore."
+msgstr ""
+
+#: dkan_datastore/modules/dkan_datastore_api/dkan_datastore_api.module:182;209
+msgid "An array representing a file."
+msgstr ""
+
+#: dkan_datastore/modules/dkan_datastore_api/dkan_datastore_api.module:593
+msgid "Search a datastore table. :param resource_id: id or alias of the data that is going to be selected."
+msgstr ""
+
+#: dkan_datastore/modules/dkan_datastore_api/dkan_datastore_api.module:605
+msgid "Missing data the file upload can not be completed"
+msgstr ""
+
+#: dkan_datastore/modules/dkan_datastore_api/dkan_datastore_api.module:624
+msgid "The store could not be created."
+msgstr ""
+
+#: dkan_datastore/modules/dkan_datastore_api/dkan_datastore_api.module:661;665;735
+msgid "An unknown error occured"
+msgstr ""
+
+#: dkan_datastore/modules/dkan_datastore_api/dkan_datastore_api.module:676
+msgid "The file is missing or empty."
+msgstr ""
+
+#: dkan_datastore/modules/dkan_datastore_api/dkan_datastore_api.module:695;731
+msgid "The store could not be updated."
+msgstr ""
+
+#: dkan_datastore/modules/dkan_datastore_api/dkan_datastore_api.info:0
+msgid "Access datastore info over json."
+msgstr ""
+
+#: dkan_permissions/dkan_permissions.info:0
+msgid "Dkan Permissions"
+msgstr ""
+
+#: dkan_sitewide/dkan_sitewide.blocks.inc:17;66
+msgid "Social"
+msgstr "ソーシャル"
+
+#: dkan_sitewide/dkan_sitewide.blocks.inc:21;76
+msgid "Additional Information"
+msgstr "追加情報"
+
+#: dkan_sitewide/dkan_sitewide.blocks.inc:25
+msgid "Powered by DKAN"
+msgstr ""
+
+#: dkan_sitewide/dkan_sitewide.blocks.inc:33;86
+msgid "Other Access"
+msgstr "その他のアクセス形式"
+
+#: dkan_sitewide/dkan_sitewide.blocks.inc:37
+msgid "User menu"
+msgstr ""
+
+#: dkan_sitewide/dkan_sitewide.blocks.inc:41;56
+msgid "Data Extent"
+msgstr ""
+
+#: dkan_sitewide/dkan_sitewide.blocks.inc:115
+msgid "mimetype"
+msgstr ""
+
+#: dkan_sitewide/dkan_sitewide.blocks.inc:116
+msgid "filesize"
+msgstr ""
+
+#: dkan_sitewide/dkan_sitewide.blocks.inc:117
+msgid "resource type"
+msgstr ""
+
+#: dkan_sitewide/dkan_sitewide.blocks.inc:118
+msgid "timestamp"
+msgstr ""
+
+#: dkan_sitewide/dkan_sitewide.blocks.inc:187
+msgid "License not specified"
+msgstr ""
+
+#: dkan_sitewide/dkan_sitewide.blocks.inc:195
+msgid "Powered by !dkan, a project of !nucivic"
+msgstr ""
+
+#: dkan_sitewide/dkan_sitewide.blocks.inc:199
+msgid "NuCivic"
+msgstr ""
+
+#: dkan_sitewide/dkan_sitewide.blocks.inc:216
+msgid "Twitter"
+msgstr ""
+
+#: dkan_sitewide/dkan_sitewide.blocks.inc:230
+msgid "LinkedIn"
+msgstr ""
+
+#: dkan_sitewide/dkan_sitewide.blocks.inc:244
+msgid "Reddit"
+msgstr ""
+
+#: dkan_sitewide/dkan_sitewide.blocks.inc:258
+msgid "Google+"
+msgstr ""
+
+#: dkan_sitewide/dkan_sitewide.blocks.inc:272
+msgid "Facebook"
+msgstr ""
+
+#: dkan_sitewide/dkan_sitewide.blocks.inc:302
+msgid "The information on this page (the dataset metadata) is also available in these formats."
+msgstr "このページの情報（データセットのメタデータ）は、これらのフォーマットでも取得することができます。"
+
+#: dkan_sitewide/dkan_sitewide.blocks.inc:316
+msgid "json view of content"
+msgstr ""
+
+#: dkan_sitewide/dkan_sitewide.blocks.inc:327
+msgid "rdf view of content"
+msgstr ""
+
+#: dkan_sitewide/dkan_sitewide.blocks.inc:334
+msgid "via the  <a href=\"http://docs.getdkan.com\">DKAN API</a>"
+msgstr ""
+"DKAN APIについては<a "
+"href=\"http://docs.getdkan.com\">こちら</a>"
+
+#: dkan_sitewide/dkan_sitewide.blocks.inc:359
+msgid "search"
+msgstr "検索"
+
+#: dkan_sitewide/dkan_sitewide.features.inc:22 dkan_sitewide/modules/dkan_sitewide_demo_front/dkan_sitewide_demo_front.context.inc:66 dkan_sitewide/modules/dkan_sitewide_search_db/dkan_sitewide_search_db.context.inc:73
+msgid "Page"
+msgstr "ページ"
+
+#: dkan_sitewide/dkan_sitewide.features.inc:24
+msgid "This is a basic page."
+msgstr "基本的なページ用のコンテンツタイプです"
+
+#: dkan_sitewide/dkan_sitewide.module:24
+msgid "Log out"
+msgstr "ログアウト"
+
+#: dkan_sitewide/dkan_sitewide.module:27
+msgid "Log in"
+msgstr "ログイン"
+
+#: dkan_sitewide/dkan_sitewide.module:29
+msgid "Register"
+msgstr ""
+
+#: dkan_sitewide/dkan_sitewide.info:0
+msgid "DKAN Sitewide"
+msgstr ""
+
+#: dkan_sitewide/dkan_sitewide.info:0
+msgid "Sitewide elements for DKAN."
+msgstr ""
+
+#: dkan_sitewide/modules/dkan_default_content/dkan_default_content.info:0
+msgid "DKAN Default Content"
+msgstr ""
+
+#: dkan_sitewide/modules/dkan_default_content/dkan_default_content.info:0
+msgid "Default content for DKAN."
+msgstr ""
+
+#: dkan_sitewide/modules/dkan_sitewide_context/dkan_sitewide_context.context.inc:70;192
+msgid "Node"
+msgstr "ノード"
+
+#: dkan_sitewide/modules/dkan_sitewide_context/dkan_sitewide_context.context.inc:103;231
+msgid "Create"
+msgstr "作成"
+
+#: dkan_sitewide/modules/dkan_sitewide_context/dkan_sitewide_context.context.inc:144;301
+msgid "Edit"
+msgstr "編集"
+
+#: dkan_sitewide/modules/dkan_sitewide_context/dkan_sitewide_context.context.inc:254
+msgid "Datastore"
+msgstr ""
+
+#: dkan_sitewide/modules/dkan_sitewide_context/dkan_sitewide_context.context.inc:351
+msgid "Sitewide"
+msgstr ""
+
+#: dkan_sitewide/modules/dkan_sitewide_context/dkan_sitewide_context.info:0
+msgid "DKAN Sitewide Context"
+msgstr ""
+
+#: dkan_sitewide/modules/dkan_sitewide_context/dkan_sitewide_context.info:0
+msgid "Contexts for DKAN."
+msgstr ""
+
+#: dkan_sitewide/modules/dkan_sitewide_demo_front/dkan_sitewide_demo_front.module:14;37
+msgid "Welcome to the DKAN Demo"
+msgstr ""
+
+#: dkan_sitewide/modules/dkan_sitewide_demo_front/dkan_sitewide_demo_front.module:18;43
+msgid "Search Your Data"
+msgstr ""
+
+#: dkan_sitewide/modules/dkan_sitewide_demo_front/dkan_sitewide_demo_front.module:22;48
+msgid "Add a Dataset"
+msgstr "データセットの追加"
+
+#: dkan_sitewide/modules/dkan_sitewide_demo_front/dkan_sitewide_demo_front.module:64
+msgid "Default"
+msgstr "デフォルト"
+
+#: dkan_sitewide/modules/dkan_sitewide_demo_front/dkan_sitewide_demo_front.module:65;74
+msgid "Add text here to override the default block content. Leave blank to continue using default."
+msgstr ""
+
+#: dkan_sitewide/modules/dkan_sitewide_demo_front/dkan_sitewide_demo_front.module:73
+msgid "Add a dataset"
+msgstr ""
+
+#: dkan_sitewide/modules/dkan_sitewide_demo_front/dkan_sitewide_demo_front.module:90;100
+msgid "Reset block content to default."
+msgstr ""
+
+#: dkan_sitewide/modules/dkan_sitewide_demo_front/dkan_sitewide_demo_front.module:134
+msgid "You can add a !dataset to get a sense of publisher workflow. This form can be customised to require many additional fields. In this demo only the most basic fields are required."
+msgstr ""
+
+#: dkan_sitewide/modules/dkan_sitewide_demo_front/dkan_sitewide_demo_front.info:0
+msgid "DKAN Sitewide Demo Front"
+msgstr ""
+
+#: dkan_sitewide/modules/dkan_sitewide_menu/dkan_sitewide_menu.features.menu_custom.inc:21
+msgid "Main menu"
+msgstr "メインメニュー"
+
+#: dkan_sitewide/modules/dkan_sitewide_menu/dkan_sitewide_menu.features.menu_custom.inc:22
+msgid "The <em>Main</em> menu is used on many sites to show the major sections of the site, often in a top navigation bar."
+msgstr "<strong>メイン</strong>メニューは多くのサイトで、サイト内の主な項目へのリンクのために使われます。最上部のナビゲーションバーとして表示されるのが一般的です。"
+
+#: dkan_sitewide/modules/dkan_sitewide_menu/dkan_sitewide_menu.features.menu_links.inc:81
+msgid "Add Dataset"
+msgstr ""
+
+#: dkan_sitewide/modules/dkan_sitewide_menu/dkan_sitewide_menu.info:0
+msgid "DKAN Sitewide Menu"
+msgstr ""
+
+#: dkan_sitewide/modules/dkan_sitewide_menu/dkan_sitewide_menu.info:0
+msgid "Default menu settings for DKAN"
+msgstr ""
+
+#: dkan_sitewide/modules/dkan_sitewide_panelizer/dkan_sitewide_panelizer.admin.inc:16
+msgid "Configure DKAN module to embed panelizer layout form on content creation."
+msgstr ""
+
+#: dkan_sitewide/modules/dkan_sitewide_panelizer/dkan_sitewide_panelizer.admin.inc:65
+msgid "Panelized Content Types"
+msgstr ""
+
+#: dkan_sitewide/modules/dkan_sitewide_panelizer/dkan_sitewide_panelizer.admin.inc:72
+msgid "Non panelized Content Types"
+msgstr ""
+
+#: dkan_sitewide/modules/dkan_sitewide_panelizer/dkan_sitewide_panelizer.module:114
+msgid "Your %content_type '%title' has been created. Start adding content by clicking on the + sign on each panel."
+msgstr ""
+
+#: dkan_sitewide/modules/dkan_sitewide_panelizer/dkan_sitewide_panelizer.info:0
+msgid "DKAN Sitewide Panelizer"
+msgstr ""
+
+#: dkan_sitewide/modules/dkan_sitewide_panelizer/dkan_sitewide_panelizer.info:0
+msgid "DKAN module for simplifying the creation of panelized content"
+msgstr ""
+
+#: dkan_sitewide/modules/dkan_sitewide_panels/dkan_sitewide_panels.pages_default.inc:1178
+msgid "Content Types"
+msgstr "コンテンツタイプ"
+
+#: dkan_sitewide/modules/dkan_sitewide_panels/dkan_sitewide_panels.info:0
+msgid "DKAN panels"
+msgstr ""
+
+#: dkan_sitewide/modules/dkan_sitewide_profile_page/dkan_sitewide_profile_page.features.menu_custom.inc:21
+msgid "Alternative admin menu for non admin users."
+msgstr ""
+
+#: dkan_sitewide/modules/dkan_sitewide_profile_page/dkan_sitewide_profile_page.features.menu_custom.inc:22
+msgid "Command Center Menu"
+msgstr ""
+
+#: dkan_sitewide/modules/dkan_sitewide_profile_page/dkan_sitewide_profile_page.features.menu_links.inc:419
+msgid "Add chart"
+msgstr ""
+
+#: dkan_sitewide/modules/dkan_sitewide_profile_page/dkan_sitewide_profile_page.features.menu_links.inc:420
+msgid "Add choropleth"
+msgstr ""
+
+#: dkan_sitewide/modules/dkan_sitewide_profile_page/dkan_sitewide_profile_page.features.menu_links.inc:421
+msgid "Add content"
+msgstr "コンテンツの追加"
+
+#: dkan_sitewide/modules/dkan_sitewide_profile_page/dkan_sitewide_profile_page.features.menu_links.inc:423
+msgid "Add group"
+msgstr ""
+
+#: dkan_sitewide/modules/dkan_sitewide_profile_page/dkan_sitewide_profile_page.features.menu_links.inc:424
+msgid "Content"
+msgstr "コンテンツ"
+
+#: dkan_sitewide/modules/dkan_sitewide_profile_page/dkan_sitewide_profile_page.features.menu_links.inc:427
+msgid "Profile"
+msgstr "プロフィール"
+
+#: dkan_sitewide/modules/dkan_sitewide_profile_page/dkan_sitewide_profile_page.features.menu_links.inc:428
+msgid "Profile Settings"
+msgstr ""
+
+#: dkan_sitewide/modules/dkan_sitewide_profile_page/dkan_sitewide_profile_page.features.menu_links.inc:429
+msgid "Site Preferences"
+msgstr ""
+
+#: dkan_sitewide/modules/dkan_sitewide_profile_page/dkan_sitewide_profile_page.features.menu_links.inc:430
+msgid "Users"
+msgstr "ユーザー"
+
+#: dkan_sitewide/modules/dkan_sitewide_profile_page/dkan_sitewide_profile_page.features.menu_links.inc:431
+msgid "View all"
+msgstr ""
+
+#: dkan_sitewide/modules/dkan_sitewide_profile_page/dkan_sitewide_profile_page.features.menu_links.inc:432
+msgid "View charts"
+msgstr ""
+
+#: dkan_sitewide/modules/dkan_sitewide_profile_page/dkan_sitewide_profile_page.features.menu_links.inc:433
+msgid "View choropleth"
+msgstr ""
+
+#: dkan_sitewide/modules/dkan_sitewide_profile_page/dkan_sitewide_profile_page.features.menu_links.inc:434
+msgid "View contents"
+msgstr ""
+
+#: dkan_sitewide/modules/dkan_sitewide_profile_page/dkan_sitewide_profile_page.features.menu_links.inc:435
+msgid "View datasets"
+msgstr ""
+
+#: dkan_sitewide/modules/dkan_sitewide_profile_page/dkan_sitewide_profile_page.features.menu_links.inc:436
+msgid "View groups"
+msgstr ""
+
+#: dkan_sitewide/modules/dkan_sitewide_profile_page/dkan_sitewide_profile_page.module:16
+msgid "DKAN User Summary"
+msgstr ""
+
+#: dkan_sitewide/modules/dkan_sitewide_profile_page/dkan_sitewide_profile_page.info:0
+msgid "DKAN Profile Page"
+msgstr ""
+
+#: dkan_sitewide/modules/dkan_sitewide_profile_page/dkan_sitewide_profile_page.info:0
+msgid "Create a dashboard that improves the usability for non admin users."
+msgstr ""
+
+#: dkan_sitewide/modules/dkan_sitewide_roles_perms/dkan_sitewide_roles_perms.module:13
+msgid "User admin role reset to \"administrator.\""
+msgstr ""
+
+#: dkan_sitewide/modules/dkan_sitewide_roles_perms/dkan_sitewide_roles_perms.module:16
+msgid "Administrator role not found. Skipping update."
+msgstr ""
+
+#: dkan_sitewide/modules/dkan_sitewide_roles_perms/dkan_sitewide_roles_perms.module:20
+msgid "User admin role already set. Skipping update."
+msgstr ""
+
+#: dkan_sitewide/modules/dkan_sitewide_roles_perms/dkan_sitewide_roles_perms.info:0
+msgid "DKAN Sitewide Roles and Permissions"
+msgstr ""
+
+#: dkan_sitewide/modules/dkan_sitewide_roles_perms/dkan_sitewide_roles_perms.info:0
+msgid "Defines roles and permissions."
+msgstr ""
+
+#: dkan_sitewide/modules/dkan_sitewide_search_db/dkan_sitewide_search_db.context.inc:72
+msgid "Blocks for the dataset search page"
+msgstr ""
+
+#: dkan_sitewide/modules/dkan_sitewide_search_db/dkan_sitewide_search_db.info:0
+msgid "DKAN Sitewide Search"
+msgstr ""
+
+#: dkan_sitewide/modules/dkan_sitewide_search_db/dkan_sitewide_search_db.info:0
+msgid "Adds search component using SQL instead of Solr"
+msgstr ""
+
+#: dkan_sitewide/modules/dkan_sitewide_user/dkan_sitewide_user.info:0
+msgid "DKAN Sitewide User"
+msgstr ""
+
+#: dkan_sitewide/modules/facet_icons/facet_icons.module:10
+msgid "Term Icon"
+msgstr ""
+
+#: dkan_sitewide/modules/facet_icons/facet_icons.module:17
+msgid "Content Type Icon"
+msgstr ""
+
+#: dkan_sitewide/modules/facet_icons/facet_icons.info:0
+msgid "Facet Links with Icons"
+msgstr ""
+
+#: dkan_sitewide/modules/facet_icons/facet_icons.info:0
+msgid "Provides facet widgets with links and icons for taxonomy terms and content types."
+msgstr ""
+
+#: dkan_sitewide/modules/facet_icons/facet_icons.info:0
+msgid "Search Toolkit"
+msgstr ""
+

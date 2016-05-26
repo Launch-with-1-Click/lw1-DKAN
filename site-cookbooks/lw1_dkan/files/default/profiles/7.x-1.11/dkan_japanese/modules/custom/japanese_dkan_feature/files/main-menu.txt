@@ -1,0 +1,5 @@
+データセットの追加 {"url":"node\/add\/dataset","lang":"ja","options":{"attributes":{"title":""},"alter":true},"weight":"-49"}
+このサイトについて {"url":"about","lang":"ja","options":{"attributes":{"title":""},"alter":true},"weight":"-47"}
+データセット {"url":"dataset","lang":"ja","options":{"attributes":{"title":""},"alter":true,"query":{"f[0]":"type:dataset"}},"weight":"-45"}
+ストーリー  {"url":"stories","lang":"ja","options":{"attributes":{"title":""},"alter":true},"weight":"-43"}
+グループ {"url":"groups","lang":"ja","options":{"attributes":{"title":""},"alter":true},"weight":"0"}

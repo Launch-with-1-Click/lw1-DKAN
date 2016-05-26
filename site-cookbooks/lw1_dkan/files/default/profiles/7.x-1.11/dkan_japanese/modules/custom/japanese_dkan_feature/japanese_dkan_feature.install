@@ -1,0 +1,58 @@
+<?php
+/**
+ * @file
+ * annai_pre_settings.install
+ */
+
+/**
+* Implements hook_enable
+*/
+function japanese_dkan_feature_enable() {
+  $id = 2;
+  $search_server_data_set = search_api_server_load($id);
+  $options = $search_server_data_set->options;
+  $options['min_chars'] = 2;
+  if($search_server_data_set) {
+    search_api_server_edit($id, array('options' =>$options));
+  }
+  $id = 3;
+  $search_server_data_set = search_api_server_load($id);
+  $options = $search_server_data_set->options;
+  $options['min_chars'] = 2;
+  if($search_server_data_set) {
+    search_api_server_edit($id, array('options' =>$options));
+  }
+
+  $languages = language_list();
+  if(!array_key_exists('ja', $languages)) {
+    locale_add_language('ja');
+  }
+
+  exec("drush potx-import-all");
+
+  global $base_path;
+  $path = drupal_get_path('module', 'japanese_dkan_feature');
+  $path = DRUPAL_ROOT . "/" . $path;
+
+  //Make the main menu translatable
+  exec("drush sql-cli < " . $path . "/files/menucustom.sql");
+
+
+  exec("drush menu-import " . $path . "/files/main-menu.txt main-menu --clean-import ");
+
+  //now we need to set the menu items that we didnt import (because
+  //they are hardcoded infeatures/views) to set the language to english.
+  $menu_links = menu_load_links('main-menu');
+  foreach($menu_links as $link_menu) {
+    if($link_menu['language'] == 'und'){
+      $mod_link = $link_menu;
+      $mod_link['language'] = 'en';
+      $mod_link['customized'] = 1;
+      //to avoid Warning
+      $link_menu['options'] = serialize($link_menu['options']);
+      menu_link_save($mod_link, $link_menu);
+    }
+  }
+  menu_cache_clear_all();
+
+}

@@ -1,0 +1,15 @@
+<?php
+/**
+ * @file
+ * Code for the ANNAI pre settings feature.
+ */
+
+include_once 'japanese_dkan_feature.features.inc';
+
+function japanese_dkan_feature_potx_file_location_info() {
+  return array(
+    'japanese_dkan_feature' => array(
+      'path' => drupal_get_path('module', 'japanese_dkan_feature') . '/translations',
+    ),
+  );
+}

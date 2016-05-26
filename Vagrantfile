@@ -19,9 +19,9 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     aws.instance_type = 'c3.2xlarge'
     case ENV['AWS_REGION']
     when 'ap-northeast-1'
-      aws.ami = 'ami-f80e0596' # Amazon Linux AMI 2016.03.0 (HVM), SSD Volume Type
+      aws.ami = 'ami-29160d47' # Amazon Linux AMI 2016.03.1 (HVM), SSD Volume Type
     when 'us-east-1'
-      aws.ami = 'ami-08111162' # Amazon Linux AMI 2016.03.0 (HVM), SSD Volume Type
+      aws.ami = 'ami-f5f41398' # Amazon Linux AMI 2016.03.1 (HVM), SSD Volume Type
     else
       raise "Unsupported region #{ENV['AWS_REGION']}"
     end
@@ -68,7 +68,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
         chef.json = {
           "lw1_dkan" => {
             "profile" => 'dkan_japanese',
-            "custom_makefile" => 'dkan_japanese.make'
+            "custom_makefile" => 'build-dkan_japanese'
           }
         }
       end

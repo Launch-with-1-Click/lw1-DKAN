@@ -1,0 +1,1227 @@
+# $Id$
+#
+# Japanese translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  nuboot_radix/template.php: n/a
+#  nuboot_radix/theme-settings.php: n/a
+#  nuboot_radix/theme-settings_back.php: n/a
+#  radix/kits/default/theme-settings.php: n/a
+#  nuboot_radix/nuboot_radix.info: n/a
+#  omega/alpha/alpha.info: n/a
+#  omega/alpha/includes/base.inc: n/a
+#  omega/starterkits/alpha-xhtml/starterkit_alpha_xhtml.info: n/a
+#  omega/omega/omega.info: n/a
+#  omega/starterkits/omega-html5/starterkit_omega_html5.info: n/a
+#  omega/starterkits/omega-xhtml/starterkit_omega_xhtml.info: n/a
+#  radix/radix.info: n/a
+#  radix/kits/default/default.info: n/a
+#  radix/kits/default/colorizer/colorizer.inc: n/a
+#  nuboot_radix/panels/layouts/full_width/full_width.inc: n/a
+#  nuboot_radix/assets/javascripts/sitewide.js: n/a
+#  nuboot_radix/colorizer/colorizer.inc: n/a
+#  nuboot_radix/includes/menu.inc: n/a
+#  omega/omega/includes/omega.theme.inc: n/a
+#  radix/includes/structure.inc: n/a
+#  nuboot_radix/templates/page/page--front.tpl.php: n/a
+#  nuboot_radix/templates/page/page.tpl.php: n/a
+#  nuboot_radix/templates/system/region--navigation.tpl.php: n/a
+#  omega/omega/template.php: n/a
+#  radix/templates/page/page.tpl.php: n/a
+#  nuboot_radix/templates/system/html.tpl.php: n/a
+#  omega/alpha/templates/html.tpl.php: n/a
+#  omega/omega/templates/html.tpl.php: n/a
+#  omega/starterkits/omega-xhtml/templates/html.tpl.php: n/a
+#  radix/templates/system/html.tpl.php: n/a
+#  omega/alpha/template.php: n/a
+#  omega/alpha/theme-settings.php: n/a
+#  omega/alpha/includes/alpha.inc: n/a
+#  omega/alpha/includes/theme-settings-general.inc: n/a
+#  omega/alpha/includes/theme-settings-structure.inc: n/a
+#  omega/omega/theme-settings.php: n/a
+#  radix/includes/view.inc: n/a
+#  omega/omega/panels/layouts/omega_12/omega_12_onecol/omega_12_onecol.inc: n/a
+#  omega/omega/panels/layouts/omega_12/omega_12_threecol_4_4_4/omega_12_threecol_4_4_4.inc: n/a
+#  omega/omega/panels/layouts/omega_12/omega_12_threecol_4_4_4_stacked/omega_12_threecol_4_4_4_stacked.inc: n/a
+#  omega/omega/panels/layouts/omega_12/omega_12_twocol_3_9/omega_12_twocol_3_9.inc: n/a
+#  omega/omega/panels/layouts/omega_12/omega_12_twocol_6_6/omega_12_twocol_6_6.inc: n/a
+#  omega/omega/panels/layouts/omega_12/omega_12_twocol_6_6_bricks/omega_12_twocol_6_6_bricks.inc: n/a
+#  omega/omega/panels/layouts/omega_12/omega_12_twocol_6_6_stacked/omega_12_twocol_6_6_stacked.inc: n/a
+#  omega/omega/panels/layouts/omega_12/omega_12_twocol_9_3/omega_12_twocol_9_3.inc: n/a
+#  omega/omega/panels/layouts/omega_16/omega_16_onecol/omega_16_onecol.inc: n/a
+#  omega/omega/panels/layouts/omega_16/omega_16_threecol_5_6_5/omega_16_threecol_5_6_5.inc: n/a
+#  omega/omega/panels/layouts/omega_16/omega_16_threecol_5_6_5_stacked/omega_16_threecol_5_6_5_stacked.inc: n/a
+#  omega/omega/panels/layouts/omega_24/omega_24_onecol/omega_24_onecol.inc: n/a
+#  omega/omega/panels/layouts/omega_24/omega_24_threecol_8_8_8/omega_24_threecol_8_8_8.inc: n/a
+#  omega/omega/panels/layouts/omega_24/omega_24_threecol_8_8_8_stacked/omega_24_threecol_8_8_8_stacked.inc: n/a
+#  omega/omega/panels/layouts/omega_16/omega_16_twocol_12_4/omega_16_twocol_12_4.inc: n/a
+#  omega/omega/panels/layouts/omega_16/omega_16_twocol_4_12/omega_16_twocol_4_12.inc: n/a
+#  omega/omega/panels/layouts/omega_16/omega_16_twocol_8_8/omega_16_twocol_8_8.inc: n/a
+#  omega/omega/panels/layouts/omega_24/omega_24_twocol_12_12/omega_24_twocol_12_12.inc: n/a
+#  omega/omega/panels/layouts/omega_24/omega_24_twocol_18_6/omega_24_twocol_18_6.inc: n/a
+#  omega/omega/panels/layouts/omega_24/omega_24_twocol_6_18/omega_24_twocol_6_18.inc: n/a
+#  omega/omega/panels/layouts/omega_16/omega_16_twocol_8_8_bricks/omega_16_twocol_8_8_bricks.inc: n/a
+#  omega/omega/panels/layouts/omega_16/omega_16_twocol_8_8_stacked/omega_16_twocol_8_8_stacked.inc: n/a
+#  omega/omega/panels/layouts/omega_24/omega_24_twocol_12_12_bricks/omega_24_twocol_12_12_bricks.inc: n/a
+#  omega/omega/panels/layouts/omega_24/omega_24_twocol_12_12_stacked/omega_24_twocol_12_12_stacked.inc: n/a
+#  omega/omega/templates/comment.tpl.php: n/a
+#  omega/starterkits/omega-xhtml/templates/comment.tpl.php: n/a
+#  omega/omega/templates/region--menu.tpl.php: n/a
+#  omega/starterkits/omega-xhtml/templates/region--menu.tpl.php: n/a
+#  radix/template.php: n/a
+#  radix/includes/admin.inc: n/a
+#  radix/includes/form.inc: n/a
+#  radix/includes/maintenance.inc: n/a
+#  radix/includes/panel.inc: n/a
+#  radix/includes/theme.inc: n/a
+#  radix/templates/block/search-block-form.tpl.php: n/a
+#  radix/templates/contrib/date-views-pager.tpl.php: n/a
+#  radix/templates/contrib/field_slideshow_controls.tpl.php: n/a
+#  radix/templates/panel/panels-add-content-modal.tpl.php: n/a
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2016-03-29 18:45+0900\n"
+"PO-Revision-Date: 2016-03-29 18:45+0900\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Japanese <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: nuboot_radix/template.php:36
+msgid "You are here"
+msgstr "現在地"
+
+#: nuboot_radix/template.php:140
+msgid "Google+"
+msgstr ""
+
+#: nuboot_radix/template.php:153
+msgid "Twitter"
+msgstr ""
+
+#: nuboot_radix/template.php:166
+msgid "Facebook"
+msgstr ""
+
+#: nuboot_radix/template.php:232
+msgid "@user's picture"
+msgstr "ユーザー @user の写真"
+
+#: nuboot_radix/template.php:241
+msgid "View user profile."
+msgstr "ユーザープロフィールの表示"
+
+#: nuboot_radix/template.php:247
+msgid "View user website."
+msgstr ""
+
+#: nuboot_radix/theme-settings.php:15 nuboot_radix/theme-settings_back.php:17 radix/kits/default/theme-settings.php:16
+msgid "Theme Settings"
+msgstr "テーマ設定"
+
+#: nuboot_radix/theme-settings.php:21 nuboot_radix/theme-settings_back.php:24 radix/kits/default/theme-settings.php:23
+msgid "Copyright"
+msgstr "コピーライト"
+
+#: nuboot_radix/theme-settings.php:24 nuboot_radix/theme-settings_back.php:27
+msgid "Powered by <a href=\"http://nucivic.com/dkan\">DKAN</a>, a project of <a href=\"http://nucivic.com\">NuCivic</a>"
+msgstr ""
+
+#: nuboot_radix/theme-settings.php:29 nuboot_radix/theme-settings_back.php:33
+msgid "Hero Unit"
+msgstr "ヒーローユニット"
+
+#: nuboot_radix/theme-settings.php:35 nuboot_radix/theme-settings_back.php:39
+msgid "Upload a new photo for the hero section background"
+msgstr "ヒーローセクションの背景に使用する画像をアップロード"
+
+#: nuboot_radix/theme-settings.php:36 nuboot_radix/theme-settings_back.php:40
+msgid "<p>The hero unit is the large featured area located on the front page.\n      This theme supplies a default background image for this area. You may upload a different\n      photo here and it will replace the default background image.</p><p>Max. file size: 2 MB\n      <br>Recommended pixel size: 1920 x 400<br>Allowed extensions: .png .jpg .jpeg</p>"
+msgstr ""
+"<p>ヒーローユニットは、トップページの大きな背景の部分です。アップロードしない場合は、デフォルトのテーマが使用されます。違う画像をアップロードすれば、デフォルトの画像を置き換えることができます。</p>\n"
+"<p>最大ファイルサイズ : 2 MB <br>推奨画像サイズ : 1920 "
+"x 400<br>アップロード可能な形式 : .png .jpg .jpeg</p>"
+
+#: nuboot_radix/theme-settings.php:50 nuboot_radix/theme-settings_back.php:55
+msgid "Solid color option"
+msgstr "ソリッドカラー オプション"
+
+#: nuboot_radix/theme-settings.php:51 nuboot_radix/theme-settings_back.php:56
+msgid "<p>Enter a hex value here to use a solid background color rather than an image in the hero unit. Make sure the image field above is empty."
+msgstr "<p>ヒーローユニットの画像ではなく、ソリッドカラーを使いたい場合にカラーコード（16進数）を入力します。その場合は、ヒーローユニットの画像が空になっていることを確認してください。</p>"
+
+#: nuboot_radix/theme-settings.php:59 nuboot_radix/theme-settings_back.php:65
+msgid "Upload an .svg version of your logo"
+msgstr "ロゴをアップロード（svg形式の場合）"
+
+#: nuboot_radix/theme-settings.php:60 nuboot_radix/theme-settings_back.php:66
+msgid "<p>Be sure to also add a .png version of your logo with the <em>Upload logo image</em> field above for older browsers that do not support .svg files. Both files should have the same name, only the suffix should change (i.e. logo.png & logo.svg).</p>"
+msgstr ""
+"<p>png形式のロゴもアップロードする場合は、上部のアップロード部分からアップロードしてください。svg形式をサポートしていないブラウザの場合に使用されます。その際、ファイル名は同じである必要があります（例：logo.png "
+"/ logo.svg）</p>"
+
+#: nuboot_radix/theme-settings.php:92 nuboot_radix/theme-settings_back.php:97
+msgid "Must be a valid hexadecimal CSS color value."
+msgstr ""
+
+#: nuboot_radix/nuboot_radix.info:0
+msgid "NuBoot Radix"
+msgstr ""
+
+#: nuboot_radix/nuboot_radix.info:0
+msgid "A theme based on Radix."
+msgstr ""
+
+#: nuboot_radix/nuboot_radix.info:0 omega/alpha/alpha.info:0 omega/alpha/includes/base.inc:162 omega/starterkits/alpha-xhtml/starterkit_alpha_xhtml.info:0
+msgid "Header"
+msgstr "ヘッダー"
+
+#: nuboot_radix/nuboot_radix.info:0
+msgid "Highlighted"
+msgstr "ハイライトされた"
+
+#: nuboot_radix/nuboot_radix.info:0 omega/omega/omega.info:0 omega/starterkits/omega-html5/starterkit_omega_html5.info:0 omega/starterkits/omega-xhtml/starterkit_omega_xhtml.info:0
+msgid "Preface First"
+msgstr ""
+
+#: nuboot_radix/nuboot_radix.info:0 omega/omega/omega.info:0 omega/starterkits/omega-html5/starterkit_omega_html5.info:0 omega/starterkits/omega-xhtml/starterkit_omega_xhtml.info:0
+msgid "Preface Second"
+msgstr ""
+
+#: nuboot_radix/nuboot_radix.info:0
+msgid "Help"
+msgstr "ヘルプ"
+
+#: nuboot_radix/nuboot_radix.info:0 omega/alpha/alpha.info:0 omega/alpha/includes/base.inc:163 omega/omega/omega.info:0 omega/starterkits/alpha-xhtml/starterkit_alpha_xhtml.info:0 omega/starterkits/omega-html5/starterkit_omega_html5.info:0 omega/starterkits/omega-xhtml/starterkit_omega_xhtml.info:0 radix/radix.info:0 radix/kits/default/default.info:0
+msgid "Content"
+msgstr "コンテンツ"
+
+#: nuboot_radix/nuboot_radix.info:0 radix/kits/default/colorizer/colorizer.inc:6
+msgid "Primary"
+msgstr ""
+
+#: nuboot_radix/nuboot_radix.info:0
+msgid "Secondary"
+msgstr ""
+
+#: nuboot_radix/nuboot_radix.info:0 omega/omega/omega.info:0 omega/starterkits/omega-html5/starterkit_omega_html5.info:0 omega/starterkits/omega-xhtml/starterkit_omega_xhtml.info:0
+msgid "Postscript First"
+msgstr ""
+
+#: nuboot_radix/nuboot_radix.info:0 omega/omega/omega.info:0 omega/starterkits/omega-html5/starterkit_omega_html5.info:0 omega/starterkits/omega-xhtml/starterkit_omega_xhtml.info:0
+msgid "Postscript Second"
+msgstr ""
+
+#: nuboot_radix/nuboot_radix.info:0
+msgid "Bottom Content"
+msgstr ""
+
+#: nuboot_radix/nuboot_radix.info:0 omega/omega/omega.info:0 omega/starterkits/omega-html5/starterkit_omega_html5.info:0 omega/starterkits/omega-xhtml/starterkit_omega_xhtml.info:0
+msgid "Footer First"
+msgstr ""
+
+#: nuboot_radix/nuboot_radix.info:0 omega/omega/omega.info:0 omega/starterkits/omega-html5/starterkit_omega_html5.info:0 omega/starterkits/omega-xhtml/starterkit_omega_xhtml.info:0
+msgid "Footer Second"
+msgstr ""
+
+#: nuboot_radix/nuboot_radix.info:0
+msgid "Footer Third"
+msgstr ""
+
+#: nuboot_radix/nuboot_radix.info:0 nuboot_radix/panels/layouts/full_width/full_width.inc:16 omega/alpha/alpha.info:0 omega/alpha/includes/base.inc:164 omega/starterkits/alpha-xhtml/starterkit_alpha_xhtml.info:0
+msgid "Footer"
+msgstr "フッター"
+
+#: nuboot_radix/nuboot_radix.info:0
+msgid "Page top"
+msgstr "ページの先頭"
+
+#: nuboot_radix/nuboot_radix.info:0
+msgid "Page bottom"
+msgstr "ページの最後"
+
+#: nuboot_radix/assets/javascripts/sitewide.js:0
+msgid "Toggle text format"
+msgstr ""
+
+#: nuboot_radix/colorizer/colorizer.inc:10
+msgid "Primary color"
+msgstr ""
+
+#: nuboot_radix/colorizer/colorizer.inc:11
+msgid "Secondary color"
+msgstr ""
+
+#: nuboot_radix/colorizer/colorizer.inc:12
+msgid "Menu bar background"
+msgstr ""
+
+#: nuboot_radix/colorizer/colorizer.inc:13
+msgid "Border color"
+msgstr ""
+
+#: nuboot_radix/colorizer/colorizer.inc:14
+msgid "Main background color"
+msgstr ""
+
+#: nuboot_radix/colorizer/colorizer.inc:15
+msgid "Footer text color"
+msgstr ""
+
+#: nuboot_radix/colorizer/colorizer.inc:16
+msgid "Footer link color"
+msgstr ""
+
+#: nuboot_radix/colorizer/colorizer.inc:17
+msgid "Footer background color"
+msgstr ""
+
+#: nuboot_radix/colorizer/colorizer.inc:18
+msgid "Site name and slogan"
+msgstr ""
+
+#: nuboot_radix/colorizer/colorizer.inc:19
+msgid "Hero Title"
+msgstr ""
+
+#: nuboot_radix/colorizer/colorizer.inc:20
+msgid "Title color"
+msgstr ""
+
+#: nuboot_radix/colorizer/colorizer.inc:21
+msgid "Text color"
+msgstr "テキストの色"
+
+#: nuboot_radix/colorizer/colorizer.inc:22
+msgid "Link color"
+msgstr "リンクの色"
+
+#: nuboot_radix/colorizer/colorizer.inc:23
+msgid "Link (active)"
+msgstr ""
+
+#: nuboot_radix/colorizer/colorizer.inc:24
+msgid "Link (hover)"
+msgstr ""
+
+#: nuboot_radix/colorizer/colorizer.inc:29
+msgid "DKAN (default)"
+msgstr ""
+
+#: nuboot_radix/colorizer/colorizer.inc:50
+msgid "Blue Lagoon"
+msgstr ""
+
+#: nuboot_radix/colorizer/colorizer.inc:71
+msgid "Firehouse"
+msgstr "ファイヤーハウス"
+
+#: nuboot_radix/colorizer/colorizer.inc:92
+msgid "Ice"
+msgstr "アイス"
+
+#: nuboot_radix/colorizer/colorizer.inc:113
+msgid "Plum"
+msgstr "プラム"
+
+#: nuboot_radix/colorizer/colorizer.inc:134
+msgid "Forest"
+msgstr ""
+
+#: nuboot_radix/colorizer/colorizer.inc:155
+msgid "Slate"
+msgstr "スレート"
+
+#: nuboot_radix/includes/menu.inc:14 omega/omega/includes/omega.theme.inc:379 radix/includes/structure.inc:14
+msgid "Primary tabs"
+msgstr "プライマリータブ"
+
+#: nuboot_radix/includes/menu.inc:21 omega/omega/includes/omega.theme.inc:385 radix/includes/structure.inc:20
+msgid "Secondary tabs"
+msgstr "セカンダリータブ"
+
+#: nuboot_radix/includes/menu.inc:106 omega/omega/includes/omega.theme.inc:403
+msgid "(active tab)"
+msgstr "(アクティブなタブ)"
+
+#: nuboot_radix/includes/menu.inc:114 omega/omega/includes/omega.theme.inc:412
+msgid "!local-task-title!active"
+msgstr "!local-task-title!active"
+
+#: nuboot_radix/panels/layouts/full_width/full_width.inc:4
+msgid "Custom Full Width"
+msgstr ""
+
+#: nuboot_radix/panels/layouts/full_width/full_width.inc:5
+msgid "Custom"
+msgstr "カスタム"
+
+#: nuboot_radix/panels/layouts/full_width/full_width.inc:10
+msgid "Top First Column"
+msgstr ""
+
+#: nuboot_radix/panels/layouts/full_width/full_width.inc:11
+msgid "Top Second Column"
+msgstr ""
+
+#: nuboot_radix/panels/layouts/full_width/full_width.inc:12
+msgid "Middle Row"
+msgstr ""
+
+#: nuboot_radix/panels/layouts/full_width/full_width.inc:13
+msgid "Bottom First Column"
+msgstr ""
+
+#: nuboot_radix/panels/layouts/full_width/full_width.inc:14
+msgid "Bottom Second Column"
+msgstr ""
+
+#: nuboot_radix/panels/layouts/full_width/full_width.inc:15
+msgid "Bottom Third Column"
+msgstr ""
+
+#: nuboot_radix/templates/page/page--front.tpl.php:11;12 nuboot_radix/templates/page/page.tpl.php:16;17 nuboot_radix/templates/system/region--navigation.tpl.php:33;34;38 omega/omega/template.php:175 radix/templates/page/page.tpl.php:25;27
+msgid "Home"
+msgstr "ホーム"
+
+#: nuboot_radix/templates/page/page--front.tpl.php:37 nuboot_radix/templates/page/page.tpl.php:42 radix/templates/page/page.tpl.php:19
+msgid "Toggle navigation"
+msgstr ""
+
+#: nuboot_radix/templates/system/html.tpl.php:26 omega/alpha/templates/html.tpl.php:18 omega/omega/templates/html.tpl.php:12 omega/starterkits/omega-xhtml/templates/html.tpl.php:12 radix/templates/system/html.tpl.php:64
+msgid "Skip to main content"
+msgstr "メインコンテンツに移動"
+
+#: omega/alpha/template.php:183
+msgid "This is a debugging block"
+msgstr ""
+
+#: omega/alpha/theme-settings.php:22
+msgid "<h3>Layout configuration</h3>"
+msgstr ""
+
+#: omega/alpha/theme-settings.php:63
+msgid "You have specified the %region region as the primary region for the %zone zone but the summed region width is greater than the number of available columns for that zone."
+msgstr ""
+
+#: omega/alpha/theme-settings.php:86
+msgid "You have chosen to manipulate the region positioning of the %zone zone but the summed region width is greater than the number of available columns for that zone."
+msgstr ""
+
+#: omega/alpha/theme-settings.php:163
+msgid "Defined by"
+msgstr ""
+
+#: omega/alpha/theme-settings.php:166
+msgid "Belongs to"
+msgstr ""
+
+#: omega/alpha/theme-settings.php:236
+msgid "@count Columns"
+msgstr ""
+
+#: omega/alpha/theme-settings.php:256
+msgid "@width Columns"
+msgstr ""
+
+#: omega/alpha/alpha.info:0
+msgid "Alpha"
+msgstr ""
+
+#: omega/alpha/alpha.info:0
+msgid "Alpha is the core basetheme for <a href=\"http://drupal.org/project/omega\">Omega</a> and all its subthemes. It includes the most basic features of the Omega theme framework. This theme should not be used directly, instead you should create a subtheme based on one of the Omega or Alpha starterkits. Learn more about <a href=\"http://drupal.org/node/819170\">Creating an Omega Subtheme</a> in the <a href=\"http://drupal.org/node/819164\">Omega Handbook</a>."
+msgstr ""
+
+#: omega/alpha/alpha.info:0 omega/omega/omega.info:0 omega/starterkits/alpha-xhtml/starterkit_alpha_xhtml.info:0 omega/starterkits/omega-html5/starterkit_omega_html5.info:0 omega/starterkits/omega-xhtml/starterkit_omega_xhtml.info:0
+msgid "Page Top"
+msgstr ""
+
+#: omega/alpha/alpha.info:0 omega/omega/omega.info:0 omega/starterkits/alpha-xhtml/starterkit_alpha_xhtml.info:0 omega/starterkits/omega-html5/starterkit_omega_html5.info:0 omega/starterkits/omega-xhtml/starterkit_omega_xhtml.info:0
+msgid "Page Bottom"
+msgstr ""
+
+#: omega/alpha/alpha.info:0 omega/omega/omega.info:0 omega/starterkits/alpha-xhtml/starterkit_alpha_xhtml.info:0 omega/starterkits/omega-html5/starterkit_omega_html5.info:0 omega/starterkits/omega-xhtml/starterkit_omega_xhtml.info:0
+msgid "Sidebar First"
+msgstr ""
+
+#: omega/alpha/alpha.info:0 omega/omega/omega.info:0 omega/starterkits/alpha-xhtml/starterkit_alpha_xhtml.info:0 omega/starterkits/omega-html5/starterkit_omega_html5.info:0 omega/starterkits/omega-xhtml/starterkit_omega_xhtml.info:0
+msgid "Sidebar Second"
+msgstr ""
+
+#: omega/alpha/includes/alpha.inc:1060
+msgid "Messages"
+msgstr "メッセージ"
+
+#: omega/alpha/includes/alpha.inc:1061
+msgid "Action links"
+msgstr ""
+
+#: omega/alpha/includes/alpha.inc:1062
+msgid "Tabs"
+msgstr "タブ"
+
+#: omega/alpha/includes/alpha.inc:1063
+msgid "Breadcrumb"
+msgstr ""
+
+#: omega/alpha/includes/alpha.inc:1064;1075
+msgid "Page title"
+msgstr "ページのタイトル"
+
+#: omega/alpha/includes/alpha.inc:1065
+msgid "Feed icons"
+msgstr ""
+
+#: omega/alpha/includes/alpha.inc:1076
+msgid "Site name"
+msgstr "サイト名"
+
+#: omega/alpha/includes/alpha.inc:1077
+msgid "Site slogan"
+msgstr "サイトスローガン"
+
+#: omega/alpha/includes/theme-settings-general.inc:22
+msgid "Grid settings"
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-general.inc:27
+msgid "Select the grid system that you want to use for this layout."
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-general.inc:28
+msgid "Grid system"
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-general.inc:35
+msgid "Responsive settings"
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-general.inc:40
+msgid "Enable the responsive grid"
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-general.inc:41
+msgid "Enabling this will unleash the responsive layout features that come with Alpha & Omega. It also helps you to clean your appartment and wash your dishes."
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-general.inc:47
+msgid "Allow customizing viewport meta properties on iOS and Android devices"
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-general.inc:48
+msgid "By default, most mobile browsers choose their own way to handle page rendering by using the viewport meta tag. iOS and Android are \"capable\" of displaying full size websites by simply scaling down the view. However, when using a truly mobile version of your theme, you will / may want to customize these settings. You can find more information about this in the <a href=\"http://drupal.org/node/819164\">Omega documentation</a>."
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-general.inc:59
+msgid "Viewport settings"
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-general.inc:70
+msgid "Initial scale"
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-general.inc:73
+msgid "The initial scaling of the page. This should almost always be set to 1.0."
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-general.inc:78
+msgid "Minimum scale"
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-general.inc:81
+msgid "The minimum scaling of the site. This should usually be the same as your <em>Initial scale</em> setting."
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-general.inc:86
+msgid "Maximum scale"
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-general.inc:89
+msgid "The maximum scaling of the site. This can be any value between 1 and 10, but should not be too big if you want to preserve your mobile look and feel."
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-general.inc:94
+msgid "Scalable by user"
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-general.inc:95
+msgid "<p>Determine if a user can resize the screen. This is usually accomplished via multi-touch gestures on iOS and Android devices. If your mobile theme is very customized and presented with good typography and graphics for a reduced mobile size, it is recommended to leave this setting unchecked. If it is left unchecked, the min-scale and max-scale properties will be ignored.</p><p class=\"marker\">HTC Android devices do NOT (currently) respect the viewport meta tag for <em>user-scalable</em>. It will render at the appropriate <em>initial-scale</em> set above, but a user can still zoom in/out.</p>"
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-general.inc:102
+msgid "@grid layout settings"
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-general.inc:112
+msgid "Primary layout"
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-general.inc:115
+msgid "The primary layout will be used in case you disable the \"responsive grid\" option aswell as for older versions of Internet Explorer."
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-general.inc:121
+msgid "@layout layout"
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-general.inc:131
+msgid "Use this layout with the responsive grid"
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-general.inc:137 omega/alpha/includes/theme-settings-structure.inc:112;222
+msgid "Weight"
+msgstr "ウェイト"
+
+#: omega/alpha/includes/theme-settings-general.inc:138
+msgid "The weight of this layout."
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-general.inc:149
+msgid "Media query"
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-general.inc:150
+msgid "The @media query that the @layout layout should respond to."
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-general.inc:166
+msgid "Toggle libraries"
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-general.inc:172
+msgid "Enable optional libraries"
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-general.inc:173
+msgid "You can choose from this list to enable optional libraries."
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-general.inc:182
+msgid "Toggle styles"
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-general.inc:189
+msgid "Enable optional stylesheets"
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-general.inc:190
+msgid "You can choose from this list to enable optional stylesheets."
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-general.inc:199
+msgid "Disable module and theme stylesheets"
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-general.inc:200
+msgid "Alpha will remove the selected stylesheets from your pages."
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-general.inc:210
+msgid "Debugging"
+msgstr "デバッグ処理"
+
+#: omega/alpha/includes/theme-settings-general.inc:217
+msgid "Enable the debugging (placeholder) blocks for the selected roles."
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-general.inc:223
+msgid "Show the debugging blocks by default."
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-general.inc:224
+msgid "This will show the debugging blocks on page load."
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-general.inc:235
+msgid "Enable the grid overlay for the selected roles."
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-general.inc:241
+msgid "Show the grid overlay by default."
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-general.inc:242
+msgid "This will show the grid overlay on page load."
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-general.inc:253
+msgid "Roles that may use the grid overlay and debugging blocks."
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-general.inc:260
+msgid "Toggle advanced elements"
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-general.inc:261
+msgid "Enable or disable the display of certain page elements."
+msgstr ""
+"テーマで表示する特定のページ要素を指定してください。 "
+"チェックを入れたものが表示されます。"
+
+#: omega/alpha/includes/theme-settings-general.inc:274
+msgid "Choose from the elements below to hide them via CSS"
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-general.inc:275
+msgid "This will make the element invisible to normal users while not removing it from the HTML (e.g. for screenreaders)."
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-structure.inc:22
+msgid "Zone and region configuration"
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-structure.inc:28
+msgid "Unassigned zones"
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-structure.inc:29
+msgid "There are no unassigned zones."
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-structure.inc:38
+msgid "Unassigned regions"
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-structure.inc:39
+msgid "There are no unassigned regions."
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-structure.inc:49;104
+msgid "Section"
+msgstr "セクション"
+
+#: omega/alpha/includes/theme-settings-structure.inc:50
+msgid "This section is empty."
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-structure.inc:61;192
+msgid "Zone"
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-structure.inc:69
+msgid "Configuration"
+msgstr "環境設定"
+
+#: omega/alpha/includes/theme-settings-structure.inc:81
+msgid "Provide full width wrapper around this zone"
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-structure.inc:82
+msgid "Enabling this feature will give a &lt;div&gt; wrapper around the zone itself, allowing you to theme in elements that appear outside the 960 pixel container zone."
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-structure.inc:88
+msgid "Force this zone to be rendered"
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-structure.inc:89
+msgid "Enabling this will always render this zone, even if it is empty."
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-structure.inc:95
+msgid "Customize the region positioning"
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-structure.inc:96
+msgid "This allows you to manipulate the placing of the regions in this zone."
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-structure.inc:119
+msgid "Column count"
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-structure.inc:128
+msgid "Primary Region"
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-structure.inc:130
+msgid "- None -"
+msgstr "- なし -"
+
+#: omega/alpha/includes/theme-settings-structure.inc:138
+msgid "Additional zone classes"
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-structure.inc:146
+msgid "Additional wrapper classes"
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-structure.inc:158
+msgid "Regions"
+msgstr "リージョン"
+
+#: omega/alpha/includes/theme-settings-structure.inc:159
+msgid "This zone is empty."
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-structure.inc:185
+msgid "Force this region to be rendered"
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-structure.inc:186
+msgid "Enabling this will always render this region, even if it is empty."
+msgstr ""
+
+#: omega/alpha/includes/theme-settings-structure.inc:200
+msgid "Prefix"
+msgstr "接頭語"
+
+#: omega/alpha/includes/theme-settings-structure.inc:207
+msgid "Width"
+msgstr "幅"
+
+#: omega/alpha/includes/theme-settings-structure.inc:214
+msgid "Suffix"
+msgstr "接尾語"
+
+#: omega/alpha/includes/theme-settings-structure.inc:229
+msgid "Position"
+msgstr "ポジション"
+
+#: omega/alpha/includes/theme-settings-structure.inc:240
+msgid "Additional region classes"
+msgstr ""
+
+#: omega/omega/template.php:77
+msgid "Unpublished"
+msgstr "未公開"
+
+#: omega/omega/theme-settings.php:22
+msgid "Force equal height for all child elements"
+msgstr ""
+
+#: omega/omega/theme-settings.php:23
+msgid "Force equal height for all blocks in this region."
+msgstr ""
+
+#: omega/omega/theme-settings.php:39
+msgid "Force equal height for all child elements."
+msgstr ""
+
+#: omega/omega/theme-settings.php:40
+msgid "Force equal height for all regions in this zone."
+msgstr ""
+
+#: omega/omega/omega.info:0
+msgid "Omega"
+msgstr ""
+
+#: omega/omega/omega.info:0
+msgid "<a href=\"http://drupal.org/project/omega\">Omega</a> extends the Omega theme framework with some additional features and makes them availabe to its subthemes. This theme should not be used directly, instead you should create a subtheme based on one of the Omega or Alpha starterkits. Learn more about <a href=\"http://drupal.org/node/819170\">Creating an Omega Subtheme</a> in the <a href=\"http://drupal.org/node/819164\">Omega Handbook</a>."
+msgstr ""
+
+#: omega/omega/omega.info:0 omega/starterkits/omega-html5/starterkit_omega_html5.info:0 omega/starterkits/omega-xhtml/starterkit_omega_xhtml.info:0
+msgid "User Bar First"
+msgstr ""
+
+#: omega/omega/omega.info:0 omega/starterkits/omega-html5/starterkit_omega_html5.info:0 omega/starterkits/omega-xhtml/starterkit_omega_xhtml.info:0
+msgid "User Bar Second"
+msgstr ""
+
+#: omega/omega/omega.info:0 omega/starterkits/omega-html5/starterkit_omega_html5.info:0 omega/starterkits/omega-xhtml/starterkit_omega_xhtml.info:0
+msgid "Branding"
+msgstr ""
+
+#: omega/omega/omega.info:0 omega/starterkits/omega-html5/starterkit_omega_html5.info:0 omega/starterkits/omega-xhtml/starterkit_omega_xhtml.info:0
+msgid "Menu"
+msgstr "メニュー"
+
+#: omega/omega/omega.info:0 omega/starterkits/omega-html5/starterkit_omega_html5.info:0 omega/starterkits/omega-xhtml/starterkit_omega_xhtml.info:0
+msgid "Header First"
+msgstr ""
+
+#: omega/omega/omega.info:0 omega/starterkits/omega-html5/starterkit_omega_html5.info:0 omega/starterkits/omega-xhtml/starterkit_omega_xhtml.info:0
+msgid "Header Second"
+msgstr ""
+
+#: omega/omega/omega.info:0 omega/starterkits/omega-html5/starterkit_omega_html5.info:0 omega/starterkits/omega-xhtml/starterkit_omega_xhtml.info:0
+msgid "Preface Third"
+msgstr ""
+
+#: omega/omega/omega.info:0 omega/starterkits/omega-html5/starterkit_omega_html5.info:0 omega/starterkits/omega-xhtml/starterkit_omega_xhtml.info:0
+msgid "Postscript Third"
+msgstr ""
+
+#: omega/omega/omega.info:0 omega/starterkits/omega-html5/starterkit_omega_html5.info:0 omega/starterkits/omega-xhtml/starterkit_omega_xhtml.info:0
+msgid "Postscript Fourth"
+msgstr ""
+
+#: omega/omega/includes/omega.theme.inc:57 radix/includes/structure.inc:265
+msgid "« first"
+msgstr "« 先頭"
+
+#: omega/omega/includes/omega.theme.inc:58 radix/includes/structure.inc:266
+msgid "‹ previous"
+msgstr "‹ 前"
+
+#: omega/omega/includes/omega.theme.inc:59 radix/includes/structure.inc:267
+msgid "next ›"
+msgstr "次 ›"
+
+#: omega/omega/includes/omega.theme.inc:60 radix/includes/structure.inc:268
+msgid "last »"
+msgstr "最終 »"
+
+#: omega/omega/includes/omega.theme.inc:132
+msgid "Pages"
+msgstr "ページ"
+
+#: omega/omega/includes/omega.theme.inc:223 radix/includes/view.inc:50
+msgid "‹‹"
+msgstr "‹‹"
+
+#: omega/omega/includes/omega.theme.inc:236 radix/includes/view.inc:60
+msgid "››"
+msgstr "››"
+
+#: omega/omega/includes/omega.theme.inc:255 radix/includes/view.inc:77
+msgid "@current of @max"
+msgstr "全 @max ページ中 @current ページ目"
+
+#: omega/omega/panels/layouts/omega_12/omega_12_onecol/omega_12_onecol.inc:8
+msgid "Single column 12"
+msgstr ""
+
+#: omega/omega/panels/layouts/omega_12/omega_12_onecol/omega_12_onecol.inc:9 omega/omega/panels/layouts/omega_12/omega_12_threecol_4_4_4/omega_12_threecol_4_4_4.inc:9 omega/omega/panels/layouts/omega_12/omega_12_threecol_4_4_4_stacked/omega_12_threecol_4_4_4_stacked.inc:9 omega/omega/panels/layouts/omega_12/omega_12_twocol_3_9/omega_12_twocol_3_9.inc:9 omega/omega/panels/layouts/omega_12/omega_12_twocol_6_6/omega_12_twocol_6_6.inc:9 omega/omega/panels/layouts/omega_12/omega_12_twocol_6_6_bricks/omega_12_twocol_6_6_bricks.inc:9 omega/omega/panels/layouts/omega_12/omega_12_twocol_6_6_stacked/omega_12_twocol_6_6_stacked.inc:9 omega/omega/panels/layouts/omega_12/omega_12_twocol_9_3/omega_12_twocol_9_3.inc:9
+msgid "Omega: 12 Column Grid"
+msgstr ""
+
+#: omega/omega/panels/layouts/omega_12/omega_12_onecol/omega_12_onecol.inc:13 omega/omega/panels/layouts/omega_12/omega_12_threecol_4_4_4/omega_12_threecol_4_4_4.inc:15 omega/omega/panels/layouts/omega_12/omega_12_threecol_4_4_4_stacked/omega_12_threecol_4_4_4_stacked.inc:16 omega/omega/panels/layouts/omega_16/omega_16_onecol/omega_16_onecol.inc:13 omega/omega/panels/layouts/omega_16/omega_16_threecol_5_6_5/omega_16_threecol_5_6_5.inc:15 omega/omega/panels/layouts/omega_16/omega_16_threecol_5_6_5_stacked/omega_16_threecol_5_6_5_stacked.inc:16 omega/omega/panels/layouts/omega_24/omega_24_onecol/omega_24_onecol.inc:13 omega/omega/panels/layouts/omega_24/omega_24_threecol_8_8_8/omega_24_threecol_8_8_8.inc:15 omega/omega/panels/layouts/omega_24/omega_24_threecol_8_8_8_stacked/omega_24_threecol_8_8_8_stacked.inc:16
+msgid "Middle column"
+msgstr "中カラム"
+
+#: omega/omega/panels/layouts/omega_12/omega_12_threecol_4_4_4/omega_12_threecol_4_4_4.inc:8
+msgid "Three column 4-4-4"
+msgstr ""
+
+#: omega/omega/panels/layouts/omega_12/omega_12_threecol_4_4_4/omega_12_threecol_4_4_4.inc:14 omega/omega/panels/layouts/omega_12/omega_12_threecol_4_4_4_stacked/omega_12_threecol_4_4_4_stacked.inc:15 omega/omega/panels/layouts/omega_12/omega_12_twocol_3_9/omega_12_twocol_3_9.inc:14 omega/omega/panels/layouts/omega_12/omega_12_twocol_6_6/omega_12_twocol_6_6.inc:14 omega/omega/panels/layouts/omega_12/omega_12_twocol_9_3/omega_12_twocol_9_3.inc:14 omega/omega/panels/layouts/omega_16/omega_16_threecol_5_6_5/omega_16_threecol_5_6_5.inc:14 omega/omega/panels/layouts/omega_16/omega_16_threecol_5_6_5_stacked/omega_16_threecol_5_6_5_stacked.inc:15 omega/omega/panels/layouts/omega_16/omega_16_twocol_12_4/omega_16_twocol_12_4.inc:14 omega/omega/panels/layouts/omega_16/omega_16_twocol_4_12/omega_16_twocol_4_12.inc:14 omega/omega/panels/layouts/omega_16/omega_16_twocol_8_8/omega_16_twocol_8_8.inc:14 omega/omega/panels/layouts/omega_24/omega_24_threecol_8_8_8/omega_24_threecol_8_8_8.inc:14 omega/omega/panels/layouts/omega_24/omega_24_threecol_8_8_8_stacked/omega_24_threecol_8_8_8_stacked.inc:15 omega/omega/panels/layouts/omega_24/omega_24_twocol_12_12/omega_24_twocol_12_12.inc:14 omega/omega/panels/layouts/omega_24/omega_24_twocol_18_6/omega_24_twocol_18_6.inc:14 omega/omega/panels/layouts/omega_24/omega_24_twocol_6_18/omega_24_twocol_6_18.inc:14
+msgid "Left side"
+msgstr "左サイド"
+
+#: omega/omega/panels/layouts/omega_12/omega_12_threecol_4_4_4/omega_12_threecol_4_4_4.inc:16 omega/omega/panels/layouts/omega_12/omega_12_threecol_4_4_4_stacked/omega_12_threecol_4_4_4_stacked.inc:17 omega/omega/panels/layouts/omega_12/omega_12_twocol_3_9/omega_12_twocol_3_9.inc:15 omega/omega/panels/layouts/omega_12/omega_12_twocol_6_6/omega_12_twocol_6_6.inc:15 omega/omega/panels/layouts/omega_12/omega_12_twocol_9_3/omega_12_twocol_9_3.inc:15 omega/omega/panels/layouts/omega_16/omega_16_threecol_5_6_5/omega_16_threecol_5_6_5.inc:16 omega/omega/panels/layouts/omega_16/omega_16_threecol_5_6_5_stacked/omega_16_threecol_5_6_5_stacked.inc:17 omega/omega/panels/layouts/omega_16/omega_16_twocol_12_4/omega_16_twocol_12_4.inc:15 omega/omega/panels/layouts/omega_16/omega_16_twocol_4_12/omega_16_twocol_4_12.inc:15 omega/omega/panels/layouts/omega_16/omega_16_twocol_8_8/omega_16_twocol_8_8.inc:15 omega/omega/panels/layouts/omega_24/omega_24_threecol_8_8_8/omega_24_threecol_8_8_8.inc:16 omega/omega/panels/layouts/omega_24/omega_24_threecol_8_8_8_stacked/omega_24_threecol_8_8_8_stacked.inc:17 omega/omega/panels/layouts/omega_24/omega_24_twocol_12_12/omega_24_twocol_12_12.inc:15 omega/omega/panels/layouts/omega_24/omega_24_twocol_18_6/omega_24_twocol_18_6.inc:15 omega/omega/panels/layouts/omega_24/omega_24_twocol_6_18/omega_24_twocol_6_18.inc:15
+msgid "Right side"
+msgstr "右サイド"
+
+#: omega/omega/panels/layouts/omega_12/omega_12_threecol_4_4_4_stacked/omega_12_threecol_4_4_4_stacked.inc:8
+msgid "Three column 4-4-4 stacked"
+msgstr ""
+
+#: omega/omega/panels/layouts/omega_12/omega_12_threecol_4_4_4_stacked/omega_12_threecol_4_4_4_stacked.inc:14 omega/omega/panels/layouts/omega_12/omega_12_twocol_6_6_bricks/omega_12_twocol_6_6_bricks.inc:14 omega/omega/panels/layouts/omega_12/omega_12_twocol_6_6_stacked/omega_12_twocol_6_6_stacked.inc:14 omega/omega/panels/layouts/omega_16/omega_16_threecol_5_6_5_stacked/omega_16_threecol_5_6_5_stacked.inc:14 omega/omega/panels/layouts/omega_16/omega_16_twocol_8_8_bricks/omega_16_twocol_8_8_bricks.inc:14 omega/omega/panels/layouts/omega_16/omega_16_twocol_8_8_stacked/omega_16_twocol_8_8_stacked.inc:14 omega/omega/panels/layouts/omega_24/omega_24_threecol_8_8_8_stacked/omega_24_threecol_8_8_8_stacked.inc:14 omega/omega/panels/layouts/omega_24/omega_24_twocol_12_12_bricks/omega_24_twocol_12_12_bricks.inc:14 omega/omega/panels/layouts/omega_24/omega_24_twocol_12_12_stacked/omega_24_twocol_12_12_stacked.inc:14
+msgid "Top"
+msgstr "トップ"
+
+#: omega/omega/panels/layouts/omega_12/omega_12_threecol_4_4_4_stacked/omega_12_threecol_4_4_4_stacked.inc:18 omega/omega/panels/layouts/omega_12/omega_12_twocol_6_6_bricks/omega_12_twocol_6_6_bricks.inc:20 omega/omega/panels/layouts/omega_12/omega_12_twocol_6_6_stacked/omega_12_twocol_6_6_stacked.inc:17 omega/omega/panels/layouts/omega_16/omega_16_threecol_5_6_5_stacked/omega_16_threecol_5_6_5_stacked.inc:18 omega/omega/panels/layouts/omega_16/omega_16_twocol_8_8_bricks/omega_16_twocol_8_8_bricks.inc:20 omega/omega/panels/layouts/omega_16/omega_16_twocol_8_8_stacked/omega_16_twocol_8_8_stacked.inc:17 omega/omega/panels/layouts/omega_24/omega_24_threecol_8_8_8_stacked/omega_24_threecol_8_8_8_stacked.inc:18 omega/omega/panels/layouts/omega_24/omega_24_twocol_12_12_bricks/omega_24_twocol_12_12_bricks.inc:20 omega/omega/panels/layouts/omega_24/omega_24_twocol_12_12_stacked/omega_24_twocol_12_12_stacked.inc:17
+msgid "Bottom"
+msgstr "ボトム"
+
+#: omega/omega/panels/layouts/omega_12/omega_12_twocol_3_9/omega_12_twocol_3_9.inc:8
+msgid "Two Column 3-9"
+msgstr ""
+
+#: omega/omega/panels/layouts/omega_12/omega_12_twocol_6_6/omega_12_twocol_6_6.inc:8
+msgid "Two Column 6-6"
+msgstr ""
+
+#: omega/omega/panels/layouts/omega_12/omega_12_twocol_6_6_bricks/omega_12_twocol_6_6_bricks.inc:8
+msgid "Two Column 6-6 bricks"
+msgstr ""
+
+#: omega/omega/panels/layouts/omega_12/omega_12_twocol_6_6_bricks/omega_12_twocol_6_6_bricks.inc:15 omega/omega/panels/layouts/omega_16/omega_16_twocol_8_8_bricks/omega_16_twocol_8_8_bricks.inc:15 omega/omega/panels/layouts/omega_24/omega_24_twocol_12_12_bricks/omega_24_twocol_12_12_bricks.inc:15
+msgid "Left above"
+msgstr "左上"
+
+#: omega/omega/panels/layouts/omega_12/omega_12_twocol_6_6_bricks/omega_12_twocol_6_6_bricks.inc:16 omega/omega/panels/layouts/omega_16/omega_16_twocol_8_8_bricks/omega_16_twocol_8_8_bricks.inc:16 omega/omega/panels/layouts/omega_24/omega_24_twocol_12_12_bricks/omega_24_twocol_12_12_bricks.inc:16
+msgid "Right above"
+msgstr "右上"
+
+#: omega/omega/panels/layouts/omega_12/omega_12_twocol_6_6_bricks/omega_12_twocol_6_6_bricks.inc:17 omega/omega/panels/layouts/omega_16/omega_16_twocol_8_8_bricks/omega_16_twocol_8_8_bricks.inc:17 omega/omega/panels/layouts/omega_24/omega_24_twocol_12_12_bricks/omega_24_twocol_12_12_bricks.inc:17
+msgid "Middle"
+msgstr "中"
+
+#: omega/omega/panels/layouts/omega_12/omega_12_twocol_6_6_bricks/omega_12_twocol_6_6_bricks.inc:18 omega/omega/panels/layouts/omega_16/omega_16_twocol_8_8_bricks/omega_16_twocol_8_8_bricks.inc:18 omega/omega/panels/layouts/omega_24/omega_24_twocol_12_12_bricks/omega_24_twocol_12_12_bricks.inc:18
+msgid "Left below"
+msgstr "左下"
+
+#: omega/omega/panels/layouts/omega_12/omega_12_twocol_6_6_bricks/omega_12_twocol_6_6_bricks.inc:19 omega/omega/panels/layouts/omega_16/omega_16_twocol_8_8_bricks/omega_16_twocol_8_8_bricks.inc:19 omega/omega/panels/layouts/omega_24/omega_24_twocol_12_12_bricks/omega_24_twocol_12_12_bricks.inc:19
+msgid "Right below"
+msgstr "右下"
+
+#: omega/omega/panels/layouts/omega_12/omega_12_twocol_6_6_stacked/omega_12_twocol_6_6_stacked.inc:8
+msgid "Two Column 6-6 stacked"
+msgstr ""
+
+#: omega/omega/panels/layouts/omega_12/omega_12_twocol_6_6_stacked/omega_12_twocol_6_6_stacked.inc:15 omega/omega/panels/layouts/omega_16/omega_16_twocol_8_8_stacked/omega_16_twocol_8_8_stacked.inc:15 omega/omega/panels/layouts/omega_24/omega_24_twocol_12_12_stacked/omega_24_twocol_12_12_stacked.inc:15
+msgid "Left"
+msgstr "左"
+
+#: omega/omega/panels/layouts/omega_12/omega_12_twocol_6_6_stacked/omega_12_twocol_6_6_stacked.inc:16 omega/omega/panels/layouts/omega_16/omega_16_twocol_8_8_stacked/omega_16_twocol_8_8_stacked.inc:16 omega/omega/panels/layouts/omega_24/omega_24_twocol_12_12_stacked/omega_24_twocol_12_12_stacked.inc:16
+msgid "Right"
+msgstr "右"
+
+#: omega/omega/panels/layouts/omega_12/omega_12_twocol_9_3/omega_12_twocol_9_3.inc:8
+msgid "Two Column 9-3"
+msgstr ""
+
+#: omega/omega/panels/layouts/omega_16/omega_16_onecol/omega_16_onecol.inc:8
+msgid "Single column 16"
+msgstr ""
+
+#: omega/omega/panels/layouts/omega_16/omega_16_onecol/omega_16_onecol.inc:9 omega/omega/panels/layouts/omega_16/omega_16_threecol_5_6_5/omega_16_threecol_5_6_5.inc:9 omega/omega/panels/layouts/omega_16/omega_16_threecol_5_6_5_stacked/omega_16_threecol_5_6_5_stacked.inc:9 omega/omega/panels/layouts/omega_16/omega_16_twocol_12_4/omega_16_twocol_12_4.inc:9 omega/omega/panels/layouts/omega_16/omega_16_twocol_4_12/omega_16_twocol_4_12.inc:9 omega/omega/panels/layouts/omega_16/omega_16_twocol_8_8/omega_16_twocol_8_8.inc:9 omega/omega/panels/layouts/omega_16/omega_16_twocol_8_8_bricks/omega_16_twocol_8_8_bricks.inc:9 omega/omega/panels/layouts/omega_16/omega_16_twocol_8_8_stacked/omega_16_twocol_8_8_stacked.inc:9
+msgid "Omega: 16 Column Grid"
+msgstr ""
+
+#: omega/omega/panels/layouts/omega_16/omega_16_threecol_5_6_5/omega_16_threecol_5_6_5.inc:8
+msgid "Three column 5-6-5"
+msgstr ""
+
+#: omega/omega/panels/layouts/omega_16/omega_16_threecol_5_6_5_stacked/omega_16_threecol_5_6_5_stacked.inc:8
+msgid "Three column 5-6-5 stacked"
+msgstr ""
+
+#: omega/omega/panels/layouts/omega_16/omega_16_twocol_12_4/omega_16_twocol_12_4.inc:8
+msgid "Two Column 12-4"
+msgstr ""
+
+#: omega/omega/panels/layouts/omega_16/omega_16_twocol_4_12/omega_16_twocol_4_12.inc:8
+msgid "Two Column 4-12"
+msgstr ""
+
+#: omega/omega/panels/layouts/omega_16/omega_16_twocol_8_8/omega_16_twocol_8_8.inc:8
+msgid "Two Column 8-8"
+msgstr ""
+
+#: omega/omega/panels/layouts/omega_16/omega_16_twocol_8_8_bricks/omega_16_twocol_8_8_bricks.inc:8
+msgid "Two Column 8-8 bricks"
+msgstr ""
+
+#: omega/omega/panels/layouts/omega_16/omega_16_twocol_8_8_stacked/omega_16_twocol_8_8_stacked.inc:8
+msgid "Two Column 8-8 stacked"
+msgstr ""
+
+#: omega/omega/panels/layouts/omega_24/omega_24_onecol/omega_24_onecol.inc:8
+msgid "Single column 24"
+msgstr ""
+
+#: omega/omega/panels/layouts/omega_24/omega_24_onecol/omega_24_onecol.inc:9 omega/omega/panels/layouts/omega_24/omega_24_threecol_8_8_8/omega_24_threecol_8_8_8.inc:9 omega/omega/panels/layouts/omega_24/omega_24_threecol_8_8_8_stacked/omega_24_threecol_8_8_8_stacked.inc:9 omega/omega/panels/layouts/omega_24/omega_24_twocol_12_12/omega_24_twocol_12_12.inc:9 omega/omega/panels/layouts/omega_24/omega_24_twocol_12_12_bricks/omega_24_twocol_12_12_bricks.inc:9 omega/omega/panels/layouts/omega_24/omega_24_twocol_12_12_stacked/omega_24_twocol_12_12_stacked.inc:9 omega/omega/panels/layouts/omega_24/omega_24_twocol_18_6/omega_24_twocol_18_6.inc:9 omega/omega/panels/layouts/omega_24/omega_24_twocol_6_18/omega_24_twocol_6_18.inc:9
+msgid "Omega: 24 Column Grid"
+msgstr ""
+
+#: omega/omega/panels/layouts/omega_24/omega_24_threecol_8_8_8/omega_24_threecol_8_8_8.inc:8
+msgid "Three column 8-8-8"
+msgstr ""
+
+#: omega/omega/panels/layouts/omega_24/omega_24_threecol_8_8_8_stacked/omega_24_threecol_8_8_8_stacked.inc:8
+msgid "Three column 8-8-8 stacked"
+msgstr ""
+
+#: omega/omega/panels/layouts/omega_24/omega_24_twocol_12_12/omega_24_twocol_12_12.inc:8
+msgid "Two Column 12-12"
+msgstr ""
+
+#: omega/omega/panels/layouts/omega_24/omega_24_twocol_12_12_bricks/omega_24_twocol_12_12_bricks.inc:8
+msgid "Two Column 12-12 bricks"
+msgstr ""
+
+#: omega/omega/panels/layouts/omega_24/omega_24_twocol_12_12_stacked/omega_24_twocol_12_12_stacked.inc:8
+msgid "Two Column 12-12 stacked"
+msgstr ""
+
+#: omega/omega/panels/layouts/omega_24/omega_24_twocol_18_6/omega_24_twocol_18_6.inc:8
+msgid "Two Column 18-6"
+msgstr ""
+
+#: omega/omega/panels/layouts/omega_24/omega_24_twocol_6_18/omega_24_twocol_6_18.inc:8
+msgid "Two Column 6-18"
+msgstr ""
+
+#: omega/omega/templates/comment.tpl.php:20 omega/starterkits/omega-xhtml/templates/comment.tpl.php:20
+msgid "Submitted by !username on !datetime"
+msgstr "作成者:!username 作成日:!datetime"
+
+#: omega/omega/templates/region--menu.tpl.php:5 omega/starterkits/omega-xhtml/templates/region--menu.tpl.php:5
+msgid "Main menu"
+msgstr "メインメニュー"
+
+#: omega/omega/templates/region--menu.tpl.php:6 omega/starterkits/omega-xhtml/templates/region--menu.tpl.php:6
+msgid "Secondary menu"
+msgstr "セカンダリーメニュー"
+
+#: omega/starterkits/alpha-xhtml/starterkit_alpha_xhtml.info:0
+msgid "Alpha XHTML Starterkit"
+msgstr ""
+
+#: omega/starterkits/alpha-xhtml/starterkit_alpha_xhtml.info:0
+msgid "Default starterkit for <a href=\"http://drupal.org/project/omega\">Alpha</a>. You should not directly edit this starterkit, but make your own copy. Information on this can be found in the <a href=\"http://himer.us/omega-docs\">Omega Documentation</a>"
+msgstr ""
+
+#: omega/starterkits/omega-html5/starterkit_omega_html5.info:0
+msgid "Omega HTML5 Starterkit"
+msgstr ""
+
+#: omega/starterkits/omega-html5/starterkit_omega_html5.info:0
+msgid "Default starterkit for <a href=\"http://drupal.org/project/omega\">Omega</a>. You should not directly edit this starterkit, but make your own copy. Information on this can be found in the <a href=\"http://himer.us/omega-docs\">Omega Documentation</a>"
+msgstr ""
+
+#: omega/starterkits/omega-xhtml/starterkit_omega_xhtml.info:0
+msgid "Omega XHTML Starter Kit"
+msgstr ""
+
+#: omega/starterkits/omega-xhtml/starterkit_omega_xhtml.info:0
+msgid "Default XHTML starterkit for <a href=\"http://drupal.org/project/omega\">Omega</a>. You should not directly edit this starterkit, but make your own copy. Information on this can be found in the <a href=\"http://himer.us/omega-docs\">Omega Documentation</a>."
+msgstr ""
+
+#: radix/template.php:156
+msgid "Search"
+msgstr "検索"
+
+#: radix/template.php:172 radix/kits/default/theme-settings.php:26
+msgid "Drupal is a registered trademark of Dries Buytaert."
+msgstr ""
+
+#: radix/radix.info:0
+msgid "Radix"
+msgstr ""
+
+#: radix/radix.info:0
+msgid "A Drupal theme with Bootstrap and Sass."
+msgstr ""
+
+#: radix/radix.info:0
+msgid "Sidebar"
+msgstr ""
+
+#: radix/includes/admin.inc:36
+msgid "Permission"
+msgstr "権限"
+
+#: radix/includes/admin.inc:164
+msgid "Expand layout to include descriptions."
+msgstr "説明を含めるためにレイアウトを展開する"
+
+#: radix/includes/admin.inc:165
+msgid "Show descriptions"
+msgstr "説明を表示"
+
+#: radix/includes/admin.inc:168
+msgid "Compress layout by hiding descriptions."
+msgstr "説明を隠してレイアウトを縮める"
+
+#: radix/includes/admin.inc:169
+msgid "Hide descriptions"
+msgstr "説明を非表示"
+
+#: (duplicate) radix/includes/form.inc:287 
+msgid "!title !required"
+msgstr "!title !required"
+
+#: radix/includes/maintenance.inc:24
+msgid "Step @current of @total"
+msgstr ""
+
+#: radix/includes/maintenance.inc:65
+msgid "active"
+msgstr "アクティブ"
+
+#: radix/includes/maintenance.inc:70
+msgid "done"
+msgstr "完了"
+
+#: radix/includes/panel.inc:97
+msgid "Add"
+msgstr "追加"
+
+#: radix/includes/structure.inc:195
+msgid "Status message"
+msgstr "ステータスメッセージ"
+
+#: radix/includes/structure.inc:196
+msgid "Error message"
+msgstr "エラーメッセージ"
+
+#: radix/includes/structure.inc:197
+msgid "Warning message"
+msgstr "警告メッセージ"
+
+#: radix/includes/theme.inc:263
+msgid "Open"
+msgstr "オープン"
+
+#: radix/kits/default/default.info:0
+msgid "{{Name}}"
+msgstr ""
+
+#: radix/kits/default/default.info:0
+msgid "{{Description}}"
+msgstr ""
+
+#: radix/kits/default/colorizer/colorizer.inc:7
+msgid "Navbar"
+msgstr ""
+
+#: radix/kits/default/colorizer/colorizer.inc:8
+msgid "Link"
+msgstr "リンク"
+
+#: radix/kits/default/colorizer/colorizer.inc:9
+msgid "Link Hover"
+msgstr ""
+
+#: radix/kits/default/colorizer/colorizer.inc:14
+msgid "Default"
+msgstr "デフォルト"
+
+#: radix/kits/default/colorizer/colorizer.inc:23
+msgid "Asphalt"
+msgstr ""
+
+#: radix/kits/default/colorizer/colorizer.inc:32
+msgid "Blue"
+msgstr ""
+
+#: radix/kits/default/colorizer/colorizer.inc:41
+msgid "Carrot"
+msgstr ""
+
+#: radix/kits/default/colorizer/colorizer.inc:50
+msgid "Red"
+msgstr "レッド"
+
+#: radix/templates/block/search-block-form.tpl.php:34
+msgid "Search form"
+msgstr "検索フォーム"
+
+#: radix/templates/contrib/date-views-pager.tpl.php:35
+msgctxt "date_nav"
+msgid "Previous"
+msgstr "前へ"
+
+#: radix/templates/contrib/date-views-pager.tpl.php:38
+msgctxt "date_nav"
+msgid "Next"
+msgstr "次へ"
+
+#: radix/templates/contrib/field_slideshow_controls.tpl.php:10
+msgid "Play"
+msgstr ""
+
+#: radix/templates/contrib/field_slideshow_controls.tpl.php:11
+msgid "Pause"
+msgstr ""
+
+#: radix/templates/page/page.tpl.php:93
+msgid "Back to Top"
+msgstr ""
+
+#: radix/templates/panel/panels-add-content-modal.tpl.php:11
+msgid "Add existing content"
+msgstr ""
+
+#: radix/templates/panel/panels-add-content-modal.tpl.php:19
+msgid "Add new content"
+msgstr "コンテンツを追加"
+

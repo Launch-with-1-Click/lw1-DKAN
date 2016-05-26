@@ -1,0 +1,118 @@
+# $Id$
+#
+# Japanese translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  template.php: n/a
+#  dkan.info: n/a
+#  templates/region--branding.tpl.php: n/a
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2016-03-29 18:46+0900\n"
+"PO-Revision-Date: 2016-03-29 18:46+0900\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Japanese <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: template.php:25
+msgid "You are here"
+msgstr "現在地"
+
+#: template.php:231
+msgid "!facetapi_deactivate_widget !facetapi_accessible_markup"
+msgstr ""
+
+#: dkan.info:0
+msgid "DKAN"
+msgstr ""
+
+#: dkan.info:0
+msgid "Help"
+msgstr "ヘルプ"
+
+#: dkan.info:0
+msgid "Page Top"
+msgstr ""
+
+#: dkan.info:0
+msgid "Page Bottom"
+msgstr ""
+
+#: dkan.info:0
+msgid "Content"
+msgstr "コンテンツ"
+
+#: dkan.info:0
+msgid "User Bar First"
+msgstr ""
+
+#: dkan.info:0
+msgid "User Bar Second"
+msgstr ""
+
+#: dkan.info:0
+msgid "Branding"
+msgstr ""
+
+#: dkan.info:0
+msgid "Menu"
+msgstr "メニュー"
+
+#: dkan.info:0
+msgid "Sidebar First"
+msgstr ""
+
+#: dkan.info:0
+msgid "Sidebar Second"
+msgstr ""
+
+#: dkan.info:0
+msgid "Header First"
+msgstr ""
+
+#: dkan.info:0
+msgid "Header Second"
+msgstr ""
+
+#: dkan.info:0
+msgid "Preface First"
+msgstr ""
+
+#: dkan.info:0
+msgid "Preface Second"
+msgstr ""
+
+#: dkan.info:0
+msgid "Preface Third"
+msgstr ""
+
+#: dkan.info:0
+msgid "Postscript First"
+msgstr ""
+
+#: dkan.info:0
+msgid "Postscript Second"
+msgstr ""
+
+#: dkan.info:0
+msgid "Footer"
+msgstr "フッター"
+
+#: dkan.info:0
+msgid "Footer First"
+msgstr ""
+
+#: dkan.info:0
+msgid "Footer Second"
+msgstr ""
+
+#: templates/region--branding.tpl.php:6;7
+msgid "Home"
+msgstr "ホーム"
+

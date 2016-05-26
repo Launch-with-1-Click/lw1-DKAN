@@ -9,19 +9,10 @@ ark "dkan" do
 end
 
 unless node[:lw1_dkan][:profile] == 'dkan'
-  cookbook_file "/tmp/#{node[:lw1_dkan][:profile]}.tar.gz" do
-    source File.join('profiles', node[:lw1_dkan][:install][:version], "#{node[:lw1_dkan][:profile]}.tar.gz" )
-  end
-
-  bash "extract_custom_profile" do
-    code <<-EOL
-      mkdir -p /usr/local/src/#{node[:lw1_dkan][:profile]}
-      tar xvzf /tmp/#{node[:lw1_dkan][:profile]}.tar.gz --strip=1 -C /usr/local/src/#{node[:lw1_dkan][:profile]}
-      chown apache.apache -R  /usr/local/src/#{node[:lw1_dkan][:profile]}
-    EOL
+  remote_directory "/usr/local/src/#{node[:lw1_dkan][:profile]}" do
+    source File.join('profiles', node[:lw1_dkan][:install][:version], "#{node[:lw1_dkan][:profile]}" )
   end
 end
-
 
 if node[:lw1_dkan][:profile] == 'dkan'
   bash "build_dkan" do
@@ -46,6 +37,7 @@ else
     retries 2
     timeout 7200
     notifies :run, 'bash[chown_dkan_wwwroot]'
+    creates "/var/www/html/profiles/#{node[:lw1_dkan][:profile]}"
   end
 
   %w[standard minimal].map do |dir|
