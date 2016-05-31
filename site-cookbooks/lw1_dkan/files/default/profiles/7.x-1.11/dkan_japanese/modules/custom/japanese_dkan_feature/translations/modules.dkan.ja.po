@@ -248,6 +248,10 @@ msgstr "値"
 msgid "Groups"
 msgstr "グループ"
 
+#francesc
+msgid "Stories"
+msgstr "ストーリー"
+
 #: dkan_dataset/dkan_dataset.forms.inc:155 dkan_dataset_backup/dkan_dataset.forms.inc:155
 msgid "Next: Add data"
 msgstr "次：データの追加"
@@ -1633,4 +1637,3 @@ msgstr ""
 #: dkan_sitewide/modules/facet_icons/facet_icons.info:0
 msgid "Search Toolkit"
 msgstr ""
-

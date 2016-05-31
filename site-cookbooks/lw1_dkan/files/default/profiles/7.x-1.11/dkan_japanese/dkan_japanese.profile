@@ -197,30 +197,5 @@ function dkan_japanese_additional_setup() {
   );
   menu_link_save($menu_item);
   menu_cache_clear_all();
-  $menu_item = array(
-    'link_path' => 'stories',
-    'link_title' => 'ストーリー',
-    'menu_name' => 'main-menu',
-    'weight' => -41,
-    'language' => 'ja',
-    'customized' => 1,
-    'options' => array(
-    )
-  );
-  menu_link_save($menu_item);
-  menu_cache_clear_all();
-  $menu_item = array(
-    'link_path' => 'groups',
-    'link_title' => 'グループ',
-    'menu_name' => 'main-menu',
-    'weight' => -39,
-    'language' => 'ja',
-    'customized' => 1,
-    'options' => array(
-    )
-  );
-  menu_link_save($menu_item);
-
-  menu_cache_clear_all();
   return NULL;
 }

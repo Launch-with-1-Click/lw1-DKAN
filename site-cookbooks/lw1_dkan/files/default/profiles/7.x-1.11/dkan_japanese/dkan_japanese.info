@@ -2,7 +2,7 @@ name = 日本語　DKAN
 core = 7.x
 description = Japanese version of DKAN
 exclusive = TRUE
-version = 7.x-1.0
+version = 7.x-1.1
 project = dkan_japanese
 
 base profile = dkan
