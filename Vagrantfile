@@ -67,6 +67,10 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
       common_provisioning_chef(chef) do
         chef.json = {
           "lw1_dkan" => {
+            "install" => {
+              "version" => "7.x-1.10",
+              "checksum" => "1e25f71aef29c1d778e984b1ebbf1e4b1a1aa30c38dc5d90fc64e9359fd97cbb"
+            },
             "profile" => 'dkan_japanese',
             "custom_makefile" => 'build-dkan_japanese.make'
           }
