@@ -19,7 +19,9 @@ if node[:lw1_dkan][:profile] == 'dkan'
     cwd "/usr/local/src/dkan"
     code <<-EOL
       rm -rf /var/www/html
-      /usr/local/bin/drush make -v --prepare-install build-dkan.make /var/www/html
+      /usr/local/bin/drush make -v --prepare-install drupal-org-core.make --yes /var/www/html
+      rsync -av . /var/www/html/profiles/dkan --exclude webroot
+      /usr/local/bin/drush -y make --no-core --contrib-destination=./ drupal-org.make /var/www/html/profiles/dkan --no-recursion
     EOL
     returns [0]
     retries 2
