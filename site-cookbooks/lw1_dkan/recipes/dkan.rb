@@ -33,7 +33,10 @@ else
     cwd "/usr/local/src/#{node[:lw1_dkan][:profile]}"
     code <<-EOL
       rm -rf /var/www/html
-      /usr/local/bin/drush make -v --prepare-install #{node[:lw1_dkan][:custom_makefile]} /var/www/html
+      /usr/local/bin/drush make -v --prepare-install #{node[:lw1_dkan][:custom_makefile]} --yes /var/www/html
+      rsync -av /usr/local/src/dkan/ /var/www/html/profiles/dkan
+      cd ../dkan && /usr/local/bin/drush -y make --no-core --contrib-destination=./ drupal-org.make /var/www/html/profiles/dkan --no-recursion
+      cd ../dkan_japanese && /usr/local/bin/drush -y make --no-core --contrib-destination=./ dkan_japanese.make /var/www/html/profiles/dkan_japanese --no-recursion
     EOL
     returns [0]
     retries 5
