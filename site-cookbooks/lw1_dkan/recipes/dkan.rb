@@ -31,12 +31,14 @@ if node[:lw1_dkan][:profile] == 'dkan'
 else
   bash "build_dkan_with_custom_profile" do
     cwd "/usr/local/src/#{node[:lw1_dkan][:profile]}"
+    # TODO: additional module to be set as attribute.
     code <<-EOL
       rm -rf /var/www/html
       /usr/local/bin/drush make -v --prepare-install #{node[:lw1_dkan][:custom_makefile]} --yes /var/www/html
       rsync -av /usr/local/src/dkan/ /var/www/html/profiles/dkan
       cd ../dkan && /usr/local/bin/drush -y make --no-core --contrib-destination=./ drupal-org.make /var/www/html/profiles/dkan --no-recursion
       cd ../dkan_japanese && /usr/local/bin/drush -y make --no-core --contrib-destination=./ dkan_japanese.make /var/www/html/profiles/dkan_japanese --no-recursion
+      git clone https://github.com/NuCivic/dkan_sitewide_profile_page.git /var/www/html/profiles/dkan/modules/dkan/dkan_sitewide/modules/dkan_sitewide_profile_page
     EOL
     returns [0]
     retries 5
