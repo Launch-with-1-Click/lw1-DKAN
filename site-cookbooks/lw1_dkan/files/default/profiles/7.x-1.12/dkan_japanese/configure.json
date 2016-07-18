@@ -1,0 +1,11 @@
+{
+  "site_name":"Japanese DKAN",
+  "site_mail":"japanese_dkan@japanese_dkan.com",
+  "date_default_timezone":"Asia/Tokyo",
+  "site_default_country":"Japan",
+  "account": {
+    "name":"admin",
+    "mail":"japanese_dkan@japanese_dkan.com",
+    "pass":"admin"
+  }
+}
