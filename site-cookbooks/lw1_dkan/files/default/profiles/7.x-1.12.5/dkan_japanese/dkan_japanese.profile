@@ -146,7 +146,7 @@ function dkan_japanese_install_tasks() {
 /**
  * Japanese DKAN setup task. Runs a series of helper functions defined below.
  */
-function dkan_japanese_additional_setup() {
+function dkan_japanese_additional_setup(&$context) {
   $context['message'] = t('Translating main menu.');
   $menu_links = menu_load_links('main-menu');
   foreach($menu_links as $link_menu) {
@@ -197,5 +197,12 @@ function dkan_japanese_additional_setup() {
   );
   menu_link_save($menu_item);
   menu_cache_clear_all();
+
+  exec("drush potx-import-all");
+  exec("drush japanese-dkan-feature-locale-import-text-groups");
+  $path = drupal_get_path('module', 'japanese_dkan_feature');
+  $path = DRUPAL_ROOT . "/" . $path;
+  exec("drush sql-cli < " . $path . "/files/menucustom.sql");
+  
   return NULL;
 }

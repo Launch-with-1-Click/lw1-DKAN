@@ -29,6 +29,7 @@ function japanese_dkan_feature_enable() {
   }
 
   exec("drush potx-import-all");
+  exec("drush japanese-dkan-feature-locale-import-text-groups");
 
   global $base_path;
   $path = drupal_get_path('module', 'japanese_dkan_feature');
