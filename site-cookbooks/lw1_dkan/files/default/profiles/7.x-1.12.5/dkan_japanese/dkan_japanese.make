@@ -53,7 +53,7 @@ libraries[japanese_dkan_jquery.imagesloaded][directory_name] = "jquery.imagesloa
 libraries[japanese_dkan_jquery.imgareaselect][download][type] = file
 libraries[japanese_dkan_jquery.imgareaselect][download][url] = https://github.com/odyniec/imgareaselect/archive/v0.9.11-rc.1.tar.gz
 libraries[japanese_dkan_jquery.imgareaselect][download][subtree] = imgareaselect-0.9.11-rc.1
-libraries[japanese_dkan_jquery.imgareaselect][directory_name] = "jquery.imagesloaded"
+libraries[japanese_dkan_jquery.imgareaselect][directory_name] = "jquery.imgareaselect"
 
 
 

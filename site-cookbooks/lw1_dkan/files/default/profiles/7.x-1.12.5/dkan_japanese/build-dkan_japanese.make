@@ -7,6 +7,12 @@ includes[core] = drupal-org-core.make
 
 ;DKAN profile
 ;includes[dkan] = ../dkan/build-dkan.make
+;now via git just for documentation purposes (version 1.12 has no build, this version must be used.
+;still this depends on how amimoto is copying the dkan.)
+projects[dkan][type] = profile
+projects[dkan][download][type] = git
+projects[dkan][download][url] = https://github.com/NuCivic/dkan.git
+projects[dkan][download][tag] = 7.x-1.12
 
 ;DKAN Japanese profile (inherits modules from DKAN)
 projects[dkan_japanese][type] = profile
