@@ -22,6 +22,12 @@ To create an instance and commmon settings.
 $ vagrant up (default|annai)
 ```
 
+To login the instance via ssh.
+
+```
+$ vagrant ssh (default|annai)
+```
+
 Rerun after update recipe.
 
 ```
