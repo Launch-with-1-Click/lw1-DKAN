@@ -85,10 +85,10 @@ bash 'install dkan by drush' do
   group "apache"
   code <<-"EOH"
     /usr/local/bin/drush site-install <%= node[:lw1_dkan][:profile]  %> --db-url="mysql://root:#{node[:ec2][:instance_id]}@localhost/dkan" -y -v --account-pass="#{node[:ec2][:instance_id]}" --site-name="DKAN Powerd by amiage"
-    touch /var/www/html/.ht_dkan_installed
+    touch /var/www/html/sites/.ht_dkan_installed
   EOH
   action :run
-  creates "/var/www/html/.ht_dkan_installed"
+  creates "/var/www/html/sites/.ht_dkan_installed"
 end
 <% else %>
 %w[configure dbparams].each do |conf|
@@ -118,10 +118,10 @@ bash 'update dkan by drush' do
   group "apache"
   code <<-"EOH"
     /usr/local/bin/drush pm-update -vy --security-only
-    touch /var/www/html/.ht_dkan_updated
+    touch /var/www/html/sites/.ht_dkan_updated
   EOH
   action :run
-  creates "/var/www/html/.ht_dkan_updated"
+  creates "/var/www/html/sites/.ht_dkan_updated"
   returns [0,1]
 end
 <% end %>
