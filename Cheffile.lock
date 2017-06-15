@@ -1,24 +1,21 @@
 SITE
   remote: http://community.opscode.com/api/v1
   specs:
-    ark (1.2.0)
+    ark (3.1.0)
       build-essential (>= 0.0.0)
       seven_zip (>= 0.0.0)
       windows (>= 0.0.0)
-    build-essential (6.0.0)
-      compat_resource (>= 12.10)
+    build-essential (8.0.3)
       mingw (>= 1.1)
       seven_zip (>= 0.0.0)
-    chef_handler (1.4.0)
-    compat_resource (12.10.6)
-    mingw (1.2.2)
-      compat_resource (>= 0.0.0)
+    mingw (2.0.1)
       seven_zip (>= 0.0.0)
-    seven_zip (2.0.1)
+    ohai (5.1.0)
+    seven_zip (2.0.2)
       windows (>= 1.2.2)
     simplelog_handler (1.0.0)
-    windows (1.44.1)
-      chef_handler (>= 0.0.0)
+    windows (3.1.1)
+      ohai (>= 4.0.0)
 
 DEPENDENCIES
   ark (>= 0)
