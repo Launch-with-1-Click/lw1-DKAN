@@ -6,3 +6,7 @@ env2.sh
 .rvmrc
 cookbooks/
 /ec2_amazon-ebs.pem
+bin/
+vendor/
+.bundle/
+tmp/
